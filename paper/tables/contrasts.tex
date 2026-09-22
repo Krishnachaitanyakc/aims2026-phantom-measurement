@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Question restoration increases agreement and accuracy at depth seven. Gaps are \fixed{} minus \dropq{}, in percentage points, on 12 paired problems with five chains per condition. Intervals are problem bootstrap 95\% BCa intervals, not simultaneous coverage intervals. Holm $p$ adjusts the exact paired sign flip test across three models within each metric; inference assumes sign symmetry. Strict scores are sensitivity endpoints.}
+\label{tab:contrasts}
+\begin{tabular}{@{}llrr@{}}
+\toprule
+Model & Metric & Gap [95\% CI], pp & Holm $p$ \\
+\midrule
+Haiku 4.5 & $D$ & 16.7 [8.3, 25.0] & 0.0078 \\
+ & $D_{\rm strict}$ & 76.7 [60.0, 80.0] & 0.0015 \\
+ & Accuracy & 88.3 [71.7, 93.3] & 0.0015 \\
+ & Strict accuracy & 90.0 [70.0, 95.0] & 0.0015 \\
+\addlinespace
+GPT 5.6 Sol & $D$ & 51.7 [35.0, 63.3] & 0.0020 \\
+ & $D_{\rm strict}$ & 61.7 [38.3, 68.3] & 0.0015 \\
+ & Accuracy & 65.0 [45.0, 76.7] & 0.0015 \\
+ & Strict accuracy & 66.7 [46.7, 76.7] & 0.0015 \\
+\addlinespace
+Sonnet 5 & $D$ & 53.3 [41.7, 61.7] & 0.0015 \\
+ & $D_{\rm strict}$ & 73.3 [60.0, 76.7] & 0.0015 \\
+ & Accuracy & 85.0 [63.3, 95.0] & 0.0015 \\
+ & Strict accuracy & 91.7 [71.7, 96.7] & 0.0015 \\
+\bottomrule
+\end{tabular}
+\end{table}

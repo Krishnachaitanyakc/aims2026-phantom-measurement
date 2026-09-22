@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this artifact when using the retained data or analysis code."
+type: software
+title: "Reproduction artifact for Phantom Measurement Artifacts in Multi-Step LLM Evaluation"
+authors:
+  - family-names: Balusu
+    given-names: Krishna Chaitanya
+    affiliation: Independent Researcher
+repository-code: "https://github.com/Krishnachaitanyakc/aims2026-phantom-measurement"
+version: 1.0.0
+date-released: 2026-09-22
+keywords:
+  - language model evaluation
+  - measurement validity
+  - answer extraction
+  - reproducibility
+  - GSM8K

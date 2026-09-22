@@ -1,0 +1,12 @@
+{
+  "repository_url": "https://github.com/Krishnachaitanyakc/aims2026-phantom-measurement",
+  "scope": "artifact/ files",
+  "public_visibility": true,
+  "unauthenticated_readme_http": 200,
+  "unauthenticated_archive_http": 200,
+  "manifest_entries_verified": 32,
+  "download_sha256": "99381f145047ae1a73d8ebdbcc0b7332ed834a2c8a7a993c5db29c2f5d2b412e",
+  "verified_utc": "2026-09-22 06:41:05 UTC",
+  "openreview_upload": "AUTHOR_OWNED_NOT_PERFORMED",
+  "zenodo_doi": null
+}

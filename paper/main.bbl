@@ -1,0 +1,94 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[At{\i}l et~al.(2025)At{\i}l, Aykent, Chittams, Fu, Passonneau,
+  Radcliffe, Rajagopal, Sloan, Tudrej, Ture, Wu, Xu, and
+  Baldwin]{atil2025nondeterminism}
+Berk At{\i}l, Sarp Aykent, Alexa Chittams, Lisheng Fu, Rebecca~J. Passonneau,
+  Evan Radcliffe, Guru~Rajan Rajagopal, Adam Sloan, Tomasz Tudrej, Ferhan Ture,
+  Zhe Wu, Lixinyu Xu, and Breck Baldwin.
+\newblock Non-determinism of ``deterministic'' {LLM} system settings in hosted
+  environments.
+\newblock In Mousumi Akter, Tahiya Chowdhury, Steffen Eger, Christoph Leiter,
+  Juri Opitz, and Erion {\c{C}}ano (eds.), \emph{Proceedings of the 5th
+  Workshop on Evaluation and Comparison of NLP Systems}, pp.\  135--148,
+  Mumbai, India, December 2025. Association for Computational Linguistics.
+\newblock ISBN 979-8-89176-305-0.
+\newblock \doi{10.18653/v1/2025.eval4nlp-1.12}.
+\newblock URL \url{https://aclanthology.org/2025.eval4nlp-1.12/}.
+
+\bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser,
+  Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman]{cobbe2021gsm8k}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+  Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+  Christopher Hesse, and John Schulman.
+\newblock Training verifiers to solve math word problems, 2021.
+\newblock URL \url{https://arxiv.org/abs/2110.14168}.
+
+\bibitem[Jacobs \& Wallach(2021)Jacobs and Wallach]{jacobs2021measurement}
+Abigail~Z. Jacobs and Hanna Wallach.
+\newblock Measurement and fairness.
+\newblock In \emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}, FAccT '21, pp.\  375--385. ACM, March
+  2021.
+\newblock \doi{10.1145/3442188.3445901}.
+\newblock URL \url{http://dx.doi.org/10.1145/3442188.3445901}.
+
+\bibitem[Laban et~al.(2026)Laban, Hayashi, Zhou, and Neville]{laban2026lost}
+Philippe Laban, Hiroaki Hayashi, Yingbo Zhou, and Jennifer Neville.
+\newblock {LLM}s get lost in multi-turn conversation.
+\newblock In \emph{International Conference on Learning Representations}, pp.\
+  54738--54778, 2026.
+\newblock URL
+  \url{https://proceedings.iclr.cc/paper_files/paper/2026/file/59f6421e64707225fdf5b28840679a07-Paper-Conference.pdf}.
+
+\bibitem[Molfese et~al.(2025)Molfese, Moroni, Gioffr{\'e}, Scir{\`e}, Conia,
+  and Navigli]{molfese2025right}
+Francesco~Maria Molfese, Luca Moroni, Luca Gioffr{\'e}, Alessandro Scir{\`e},
+  Simone Conia, and Roberto Navigli.
+\newblock Right answer, wrong score: Uncovering the inconsistencies of {LLM}
+  evaluation in multiple-choice question answering.
+\newblock In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad~Taher
+  Pilehvar (eds.), \emph{Findings of the Association for Computational
+  Linguistics: ACL 2025}, pp.\  18477--18494, Vienna, Austria, July 2025.
+  Association for Computational Linguistics.
+\newblock ISBN 979-8-89176-256-5.
+\newblock \doi{10.18653/v1/2025.findings-acl.950}.
+\newblock URL \url{https://aclanthology.org/2025.findings-acl.950/}.
+
+\bibitem[Schaeffer et~al.(2023)Schaeffer, Miranda, and
+  Koyejo]{schaeffer2023mirage}
+Rylan Schaeffer, Brando Miranda, and Sanmi Koyejo.
+\newblock Are emergent abilities of large language models a mirage?
+\newblock In A.~Oh, T.~Naumann, A.~Globerson, K.~Saenko, M.~Hardt, and
+  S.~Levine (eds.), \emph{Advances in Neural Information Processing Systems},
+  volume~36, pp.\  55565--55581. Curran Associates, Inc., 2023.
+\newblock \doi{10.52202/075280-2425}.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2023/file/adc98a266f45005c403b8311ca7e8bd7-Paper-Conference.pdf}.
+
+\bibitem[Sclar et~al.(2024)Sclar, Choi, Tsvetkov, and Suhr]{sclar2024format}
+Melanie Sclar, Yejin Choi, Yulia Tsvetkov, and Alane Suhr.
+\newblock Quantifying language models' sensitivity to spurious features in
+  prompt design or: How {I} learned to start worrying about prompt formatting.
+\newblock In \emph{International Conference on Learning Representations}, pp.\
+  25055--25083, 2024.
+\newblock URL
+  \url{https://proceedings.iclr.cc/paper_files/paper/2024/file/6c0e99d736da621403018ca7b32b1a4d-Paper-Conference.pdf}.
+
+\bibitem[Yu et~al.(2025)Yu, Zheng, Song, Li, Xiong, Tang, and
+  Chen]{yu2025xfinder}
+Qingchen Yu, Zifan Zheng, Shichao Song, Zhiyu Li, Feiyu Xiong, Bo~Tang, and
+  Ding Chen.
+\newblock {xFinder}: Large language models as automated evaluators for reliable
+  evaluation.
+\newblock In \emph{International Conference on Learning Representations}, pp.\
+  59850--59892, 2025.
+\newblock URL
+  \url{https://proceedings.iclr.cc/paper_files/paper/2025/file/9602d22a8c791f23f8e4d1398e3fb5be-Paper-Conference.pdf}.
+
+\end{thebibliography}

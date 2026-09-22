@@ -1,0 +1,32 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Final call restoration recovers correct answers on this panel. Each row contains 12 problems $\times$ five chains. The two $k=1$ cells per model are displayed together because both have identical observed values; each still contains 60 separate chains. $D$ and $D_{\rm strict}$ are mean per problem plurality shares. Accuracy columns give correct final answers, with rejected runs retained as incorrect. Ceiling scores and final control ties are descriptive, not equivalence evidence.}
+\label{tab:cells}
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+Model & Construction & $k$ & $D$ & $D_{\rm strict}$ & Correct & Strict \\
+\midrule
+Haiku 4.5 & Both at $k=1$ & 1 & 1.000 & 1.000 & 60/60 & 60/60 \\
+ & \dropq & 5 & 0.600 & 0.233 & 13/60 & 9/60 \\
+ & \dropq & 7 & 0.833 & 0.233 & 7/60 & 6/60 \\
+ & \fixed & 5 & 1.000 & 1.000 & 60/60 & 60/60 \\
+ & \fixed & 7 & 1.000 & 1.000 & 60/60 & 60/60 \\
+ & \finalonly & 7 & 1.000 & 1.000 & 60/60 & 60/60 \\
+\addlinespace
+GPT 5.6 Sol & Both at $k=1$ & 1 & 1.000 & 1.000 & 60/60 & 60/60 \\
+ & \dropq & 5 & 0.517 & 0.483 & 26/60 & 25/60 \\
+ & \dropq & 7 & 0.467 & 0.367 & 20/60 & 19/60 \\
+ & \fixed & 5 & 1.000 & 1.000 & 60/60 & 60/60 \\
+ & \fixed & 7 & 0.983 & 0.983 & 59/60 & 59/60 \\
+ & \finalonly & 7 & 1.000 & 1.000 & 60/60 & 60/60 \\
+\addlinespace
+Sonnet 5 & Both at $k=1$ & 1 & 1.000 & 1.000 & 60/60 & 60/60 \\
+ & \dropq & 5 & 0.467 & 0.417 & 22/60 & 20/60 \\
+ & \dropq & 7 & 0.467 & 0.267 & 9/60 & 5/60 \\
+ & \fixed & 5 & 0.983 & 0.983 & 59/60 & 59/60 \\
+ & \fixed & 7 & 1.000 & 1.000 & 60/60 & 60/60 \\
+ & \finalonly & 7 & 1.000 & 1.000 & 60/60 & 60/60 \\
+\bottomrule
+\end{tabular}
+\end{table}

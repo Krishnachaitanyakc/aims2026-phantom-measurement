@@ -1,0 +1,1572 @@
+{
+  "scope": "SW-JUL26-R3 arithmetic only; three models, 12 problems, five chains per cell",
+  "audit_status": "Every included cell and k7 contrast independently verified against raw logs",
+  "source_dataset_sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+  "source_dataset_pin_matches": true,
+  "models": {
+    "haiku": {
+      "source_log": "runs/haiku-r3.jsonl",
+      "source_log_sha256": "edbf11ffbd473bd845175ec0c7d7ef9c21c75faa406f81c32c4904a080a844a2",
+      "counts": {
+        "selected_chains": 420,
+        "selected_step_calls": 1980,
+        "stored_chain_records": 502,
+        "stored_step_objects": 2106,
+        "inference_attempts": 2482,
+        "error_chains": 0,
+        "deviation_chains": 0
+      },
+      "checks": {
+        "verified_step_hashes_parses_and_refusal_flags": 1980,
+        "verified_task_presence_steps": 1980,
+        "verified_final_parses_and_correctness": 420
+      },
+      "observed_model_ids": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_first_call_utc": "2026-07-30T15:14:13.291475+00:00",
+      "selected_last_call_utc": "2026-07-31T02:46:00.758439+00:00",
+      "cells": {
+        "degenerate_k1": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "degenerate_k5": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 0.6,
+          "D_strict": 0.2333,
+          "acc": 0.2167,
+          "acc_strict": 0.15,
+          "D_marker_only": 0.2333,
+          "D_refusal_only": 0.4167,
+          "correct_count": 13,
+          "strict_correct_count": 9,
+          "parse_counts": {
+            "fallback": 44,
+            "hash": 16
+          },
+          "final_refusal_count": 14,
+          "fallback_values": {
+            "4": 31,
+            "100": 2,
+            "2.5": 1,
+            "3": 4,
+            "540": 1,
+            "72": 1,
+            "5": 1,
+            "-3": 2,
+            "27": 1
+          },
+          "final_or_previous_step_index_fallback_count": 32,
+          "modal_votes_total": 36,
+          "strict_modal_votes_total": 14
+        },
+        "degenerate_k7": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 0.8333,
+          "D_strict": 0.2333,
+          "acc": 0.1167,
+          "acc_strict": 0.1,
+          "D_marker_only": 0.2333,
+          "D_refusal_only": 0.5,
+          "correct_count": 7,
+          "strict_correct_count": 6,
+          "parse_counts": {
+            "fallback": 53,
+            "hash": 7
+          },
+          "final_refusal_count": 24,
+          "fallback_values": {
+            "6": 49,
+            "3": 2,
+            "5": 1,
+            "-5": 1
+          },
+          "final_or_previous_step_index_fallback_count": 49,
+          "modal_votes_total": 50,
+          "strict_modal_votes_total": 14
+        },
+        "finalonly_k7": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "fixed_k1": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "fixed_k5": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "fixed_k7": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        }
+      },
+      "contrasts": {
+        "fixed_minus_degenerate_k7": {
+          "D": {
+            "mean_gap": 0.1667,
+            "exact_gap": "1/6",
+            "per_problem_gaps": [
+              "2/5",
+              "1/5",
+              "0",
+              "1/5",
+              "0",
+              "0",
+              "1/5",
+              "2/5",
+              "1/5",
+              "1/5",
+              "1/5",
+              "0"
+            ],
+            "sign_flip_p": 0.0078125,
+            "sign_flip_p_exact": "1/128",
+            "holm_p_across_three_models": 0.0078125
+          },
+          "D_strict": {
+            "mean_gap": 0.7667,
+            "exact_gap": "23/30",
+            "per_problem_gaps": [
+              "4/5",
+              "4/5",
+              "4/5",
+              "4/5",
+              "4/5",
+              "4/5",
+              "4/5",
+              "2/5",
+              "4/5",
+              "4/5",
+              "4/5",
+              "4/5"
+            ],
+            "sign_flip_p": 0.00048828125,
+            "sign_flip_p_exact": "1/2048",
+            "holm_p_across_three_models": 0.00146484375
+          },
+          "acc": {
+            "mean_gap": 0.8833,
+            "exact_gap": "53/60",
+            "per_problem_gaps": [
+              "1",
+              "4/5",
+              "1",
+              "4/5",
+              "1",
+              "1",
+              "4/5",
+              "2/5",
+              "1",
+              "4/5",
+              "1",
+              "1"
+            ],
+            "sign_flip_p": 0.00048828125,
+            "sign_flip_p_exact": "1/2048",
+            "holm_p_across_three_models": 0.00146484375
+          },
+          "acc_strict": {
+            "mean_gap": 0.9,
+            "exact_gap": "9/10",
+            "per_problem_gaps": [
+              "1",
+              "4/5",
+              "1",
+              "4/5",
+              "1",
+              "1",
+              "4/5",
+              "2/5",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "sign_flip_p": 0.00048828125,
+            "sign_flip_p_exact": "1/2048",
+            "holm_p_across_three_models": 0.00146484375
+          },
+          "reproduced_intervals": {
+            "D_gap_ci": [
+              0.0833,
+              0.25
+            ],
+            "D_gap_strict_ci": [
+              0.6,
+              0.8
+            ],
+            "acc_gap_ci": [
+              0.7167,
+              0.9333
+            ],
+            "acc_strict_gap_ci": [
+              0.7,
+              0.95
+            ],
+            "D_gap_ci_2stage": [
+              0.0667,
+              0.25
+            ]
+          }
+        },
+        "fixed_minus_finalonly_k7": {
+          "D": {
+            "mean_gap": 0.0,
+            "exact_gap": "0",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "D_strict": {
+            "mean_gap": 0.0,
+            "exact_gap": "0",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "acc": {
+            "mean_gap": 0.0,
+            "exact_gap": "0",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "acc_strict": {
+            "mean_gap": 0.0,
+            "exact_gap": "0",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "reproduced_intervals": {
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_ci_2stage": [
+              0.0,
+              0.0
+            ],
+            "tost_ci90": [
+              0.0,
+              0.0
+            ],
+            "tost_pass": null
+          }
+        },
+        "rebound_deg_k7_minus_k5": {
+          "D": {
+            "mean_gap": 0.2333,
+            "exact_gap": "7/30",
+            "per_problem_gaps": [
+              "-1/5",
+              "2/5",
+              "3/5",
+              "0",
+              "3/5",
+              "2/5",
+              "-1/5",
+              "1/5",
+              "1/5",
+              "-1/5",
+              "2/5",
+              "3/5"
+            ],
+            "sign_flip_p": 0.0458984375,
+            "sign_flip_p_exact": "47/1024"
+          },
+          "D_strict": {
+            "mean_gap": 0.0,
+            "exact_gap": "0",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1/5",
+              "0",
+              "0",
+              "-1/5",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "acc": {
+            "mean_gap": -0.1,
+            "exact_gap": "-1/10",
+            "per_problem_gaps": [
+              "0",
+              "-1/5",
+              "0",
+              "0",
+              "-1/5",
+              "-3/5",
+              "1/5",
+              "1/5",
+              "0",
+              "1/5",
+              "-2/5",
+              "-2/5"
+            ],
+            "sign_flip_p": 0.3046875,
+            "sign_flip_p_exact": "39/128"
+          },
+          "acc_strict": {
+            "mean_gap": -0.05,
+            "exact_gap": "-1/20",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "-1/5",
+              "-1/5",
+              "1/5",
+              "1/5",
+              "0",
+              "0",
+              "-2/5",
+              "-1/5"
+            ],
+            "sign_flip_p": 0.53125,
+            "sign_flip_p_exact": "17/32"
+          },
+          "reproduced_intervals": {
+            "D_gap_ci": [
+              0.0333,
+              0.3833
+            ],
+            "D_gap_strict_ci": [
+              -0.0667,
+              0.0333
+            ],
+            "acc_gap_ci": [
+              -0.2667,
+              0.0167
+            ],
+            "acc_strict_gap_ci": [
+              -0.1667,
+              0.0167
+            ]
+          }
+        }
+      }
+    },
+    "codex-gpt56": {
+      "source_log": "runs/codex-r3.jsonl",
+      "source_log_sha256": "48094c979ecddb66fed9f8057b1a4806ddee2f977232ddaa4e3d1dc40331479d",
+      "counts": {
+        "selected_chains": 420,
+        "selected_step_calls": 1980,
+        "stored_chain_records": 420,
+        "stored_step_objects": 1980,
+        "inference_attempts": 1980,
+        "error_chains": 0,
+        "deviation_chains": 0
+      },
+      "checks": {
+        "verified_step_hashes_parses_and_refusal_flags": 1980,
+        "verified_task_presence_steps": 1980,
+        "verified_final_parses_and_correctness": 420
+      },
+      "observed_model_ids": [
+        "gpt-5.6-sol"
+      ],
+      "selected_first_call_utc": "2026-07-30T15:14:14.196275+00:00",
+      "selected_last_call_utc": "2026-07-30T16:40:46.748571+00:00",
+      "cells": {
+        "degenerate_k1": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "degenerate_k5": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 0.5167,
+          "D_strict": 0.4833,
+          "acc": 0.4333,
+          "acc_strict": 0.4167,
+          "D_marker_only": 0.4833,
+          "D_refusal_only": 0.5167,
+          "correct_count": 26,
+          "strict_correct_count": 25,
+          "parse_counts": {
+            "hash": 36,
+            "none": 13,
+            "fallback": 11
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {
+            "3": 4,
+            "15": 1,
+            "8": 1,
+            "16": 1,
+            "4": 1,
+            "18": 1,
+            "10000": 1,
+            "27": 1
+          },
+          "final_or_previous_step_index_fallback_count": 1,
+          "modal_votes_total": 31,
+          "strict_modal_votes_total": 29
+        },
+        "degenerate_k7": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 0.4667,
+          "D_strict": 0.3667,
+          "acc": 0.3333,
+          "acc_strict": 0.3167,
+          "D_marker_only": 0.3667,
+          "D_refusal_only": 0.45,
+          "correct_count": 20,
+          "strict_correct_count": 19,
+          "parse_counts": {
+            "hash": 29,
+            "fallback": 23,
+            "none": 8
+          },
+          "final_refusal_count": 1,
+          "fallback_values": {
+            "100": 1,
+            "66": 2,
+            "15": 1,
+            "5": 15,
+            "-11": 1,
+            "6": 2,
+            "27": 1
+          },
+          "final_or_previous_step_index_fallback_count": 2,
+          "modal_votes_total": 28,
+          "strict_modal_votes_total": 22
+        },
+        "finalonly_k7": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "fixed_k1": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "fixed_k5": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "fixed_k7": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 0.9833,
+          "D_strict": 0.9833,
+          "acc": 0.9833,
+          "acc_strict": 0.9833,
+          "D_marker_only": 0.9833,
+          "D_refusal_only": 0.9833,
+          "correct_count": 59,
+          "strict_correct_count": 59,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 59,
+          "strict_modal_votes_total": 59
+        }
+      },
+      "contrasts": {
+        "fixed_minus_degenerate_k7": {
+          "D": {
+            "mean_gap": 0.5167,
+            "exact_gap": "31/60",
+            "per_problem_gaps": [
+              "4/5",
+              "1/5",
+              "3/5",
+              "2/5",
+              "3/5",
+              "2/5",
+              "2/5",
+              "4/5",
+              "0",
+              "3/5",
+              "3/5",
+              "4/5"
+            ],
+            "sign_flip_p": 0.0009765625,
+            "sign_flip_p_exact": "1/1024",
+            "holm_p_across_three_models": 0.001953125
+          },
+          "D_strict": {
+            "mean_gap": 0.6167,
+            "exact_gap": "37/60",
+            "per_problem_gaps": [
+              "4/5",
+              "4/5",
+              "3/5",
+              "3/5",
+              "3/5",
+              "3/5",
+              "3/5",
+              "4/5",
+              "0",
+              "3/5",
+              "3/5",
+              "4/5"
+            ],
+            "sign_flip_p": 0.0009765625,
+            "sign_flip_p_exact": "1/1024",
+            "holm_p_across_three_models": 0.00146484375
+          },
+          "acc": {
+            "mean_gap": 0.65,
+            "exact_gap": "13/20",
+            "per_problem_gaps": [
+              "4/5",
+              "1",
+              "3/5",
+              "3/5",
+              "4/5",
+              "2/5",
+              "3/5",
+              "1",
+              "0",
+              "3/5",
+              "3/5",
+              "4/5"
+            ],
+            "sign_flip_p": 0.0009765625,
+            "sign_flip_p_exact": "1/1024",
+            "holm_p_across_three_models": 0.00146484375
+          },
+          "acc_strict": {
+            "mean_gap": 0.6667,
+            "exact_gap": "2/3",
+            "per_problem_gaps": [
+              "4/5",
+              "1",
+              "3/5",
+              "3/5",
+              "4/5",
+              "3/5",
+              "3/5",
+              "1",
+              "0",
+              "3/5",
+              "3/5",
+              "4/5"
+            ],
+            "sign_flip_p": 0.0009765625,
+            "sign_flip_p_exact": "1/1024",
+            "holm_p_across_three_models": 0.00146484375
+          },
+          "reproduced_intervals": {
+            "D_gap_ci": [
+              0.35,
+              0.6333
+            ],
+            "D_gap_strict_ci": [
+              0.3833,
+              0.6833
+            ],
+            "acc_gap_ci": [
+              0.45,
+              0.7667
+            ],
+            "acc_strict_gap_ci": [
+              0.4667,
+              0.7667
+            ],
+            "D_gap_ci_2stage": [
+              0.2667,
+              0.5167
+            ]
+          }
+        },
+        "fixed_minus_finalonly_k7": {
+          "D": {
+            "mean_gap": -0.0167,
+            "exact_gap": "-1/60",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "-1/5",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "D_strict": {
+            "mean_gap": -0.0167,
+            "exact_gap": "-1/60",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "-1/5",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "acc": {
+            "mean_gap": -0.0167,
+            "exact_gap": "-1/60",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "-1/5",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "acc_strict": {
+            "mean_gap": -0.0167,
+            "exact_gap": "-1/60",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "-1/5",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "reproduced_intervals": {
+            "D_gap_ci": [
+              -0.1,
+              0.0
+            ],
+            "D_gap_strict_ci": [
+              -0.0833,
+              0.0
+            ],
+            "acc_gap_ci": [
+              -0.1,
+              0.0
+            ],
+            "acc_strict_gap_ci": [
+              -0.1,
+              0.0
+            ],
+            "D_gap_ci_2stage": [
+              -0.0667,
+              0.0
+            ],
+            "tost_ci90": [
+              -0.1,
+              -0.0167
+            ],
+            "tost_pass": null
+          }
+        },
+        "rebound_deg_k7_minus_k5": {
+          "D": {
+            "mean_gap": -0.05,
+            "exact_gap": "-1/20",
+            "per_problem_gaps": [
+              "-1/5",
+              "3/5",
+              "-1/5",
+              "1/5",
+              "-1/5",
+              "-2/5",
+              "1/5",
+              "0",
+              "1/5",
+              "-3/5",
+              "0",
+              "-1/5"
+            ],
+            "sign_flip_p": 0.724609375,
+            "sign_flip_p_exact": "371/512"
+          },
+          "D_strict": {
+            "mean_gap": -0.1167,
+            "exact_gap": "-7/60",
+            "per_problem_gaps": [
+              "-1/5",
+              "0",
+              "0",
+              "1/5",
+              "-1/5",
+              "-3/5",
+              "0",
+              "0",
+              "1/5",
+              "-3/5",
+              "0",
+              "-1/5"
+            ],
+            "sign_flip_p": 0.25,
+            "sign_flip_p_exact": "1/4"
+          },
+          "acc": {
+            "mean_gap": -0.1,
+            "exact_gap": "-1/10",
+            "per_problem_gaps": [
+              "-1/5",
+              "0",
+              "-1/5",
+              "2/5",
+              "-2/5",
+              "-2/5",
+              "0",
+              "0",
+              "1/5",
+              "-3/5",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 0.328125,
+            "sign_flip_p_exact": "21/64"
+          },
+          "acc_strict": {
+            "mean_gap": -0.1,
+            "exact_gap": "-1/10",
+            "per_problem_gaps": [
+              "-1/5",
+              "0",
+              "0",
+              "2/5",
+              "-2/5",
+              "-3/5",
+              "0",
+              "0",
+              "1/5",
+              "-3/5",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 0.375,
+            "sign_flip_p_exact": "3/8"
+          },
+          "reproduced_intervals": {
+            "D_gap_ci": [
+              -0.2167,
+              0.1333
+            ],
+            "D_gap_strict_ci": [
+              -0.3,
+              -0.0167
+            ],
+            "acc_gap_ci": [
+              -0.2667,
+              0.0333
+            ],
+            "acc_strict_gap_ci": [
+              -0.2833,
+              0.05
+            ]
+          }
+        }
+      }
+    },
+    "sonnet": {
+      "source_log": "runs/sonnet-r3.jsonl",
+      "source_log_sha256": "84c3c5c38371c4a26eb0085e35453dfc3ba3dc44946eef80c19e4257b79dee91",
+      "counts": {
+        "selected_chains": 420,
+        "selected_step_calls": 1980,
+        "stored_chain_records": 420,
+        "stored_step_objects": 1980,
+        "inference_attempts": 1990,
+        "error_chains": 0,
+        "deviation_chains": 0
+      },
+      "checks": {
+        "verified_step_hashes_parses_and_refusal_flags": 1980,
+        "verified_task_presence_steps": 1980,
+        "verified_final_parses_and_correctness": 420
+      },
+      "observed_model_ids": [
+        "claude-sonnet-5"
+      ],
+      "selected_first_call_utc": "2026-07-30T19:19:42.799522+00:00",
+      "selected_last_call_utc": "2026-07-31T01:51:23.044017+00:00",
+      "cells": {
+        "degenerate_k1": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "degenerate_k5": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 0.4667,
+          "D_strict": 0.4167,
+          "acc": 0.3667,
+          "acc_strict": 0.3333,
+          "D_marker_only": 0.4167,
+          "D_refusal_only": 0.45,
+          "correct_count": 22,
+          "strict_correct_count": 20,
+          "parse_counts": {
+            "fallback": 24,
+            "hash": 29,
+            "none": 7
+          },
+          "final_refusal_count": 4,
+          "fallback_values": {
+            "3": 4,
+            "4": 8,
+            "100": 1,
+            "12": 1,
+            "98": 1,
+            "5": 2,
+            "33": 1,
+            "10": 1,
+            "50": 1,
+            "2": 1,
+            "20": 1,
+            "10000": 1,
+            "27": 1
+          },
+          "final_or_previous_step_index_fallback_count": 10,
+          "modal_votes_total": 28,
+          "strict_modal_votes_total": 25
+        },
+        "degenerate_k7": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 0.4667,
+          "D_strict": 0.2667,
+          "acc": 0.15,
+          "acc_strict": 0.0833,
+          "D_marker_only": 0.2667,
+          "D_refusal_only": 0.4333,
+          "correct_count": 9,
+          "strict_correct_count": 5,
+          "parse_counts": {
+            "fallback": 43,
+            "none": 7,
+            "hash": 10
+          },
+          "final_refusal_count": 7,
+          "fallback_values": {
+            "6": 21,
+            "3": 3,
+            "75": 1,
+            "5": 9,
+            "8.00": 1,
+            "540": 1,
+            "750": 1,
+            "-5": 2,
+            "30000": 1,
+            "4": 1,
+            "9": 2
+          },
+          "final_or_previous_step_index_fallback_count": 21,
+          "modal_votes_total": 28,
+          "strict_modal_votes_total": 16
+        },
+        "finalonly_k7": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "fixed_k1": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        },
+        "fixed_k5": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 0.9833,
+          "D_strict": 0.9833,
+          "acc": 0.9833,
+          "acc_strict": 0.9833,
+          "D_marker_only": 0.9833,
+          "D_refusal_only": 0.9833,
+          "correct_count": 59,
+          "strict_correct_count": 59,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 59,
+          "strict_modal_votes_total": 59
+        },
+        "fixed_k7": {
+          "n_problems": 12,
+          "n_runs_per_problem": 5,
+          "n_chains": 60,
+          "D": 1.0,
+          "D_strict": 1.0,
+          "acc": 1.0,
+          "acc_strict": 1.0,
+          "D_marker_only": 1.0,
+          "D_refusal_only": 1.0,
+          "correct_count": 60,
+          "strict_correct_count": 60,
+          "parse_counts": {
+            "hash": 60
+          },
+          "final_refusal_count": 0,
+          "fallback_values": {},
+          "final_or_previous_step_index_fallback_count": 0,
+          "modal_votes_total": 60,
+          "strict_modal_votes_total": 60
+        }
+      },
+      "contrasts": {
+        "fixed_minus_degenerate_k7": {
+          "D": {
+            "mean_gap": 0.5333,
+            "exact_gap": "8/15",
+            "per_problem_gaps": [
+              "3/5",
+              "2/5",
+              "4/5",
+              "3/5",
+              "3/5",
+              "2/5",
+              "3/5",
+              "2/5",
+              "4/5",
+              "2/5",
+              "3/5",
+              "1/5"
+            ],
+            "sign_flip_p": 0.00048828125,
+            "sign_flip_p_exact": "1/2048",
+            "holm_p_across_three_models": 0.00146484375
+          },
+          "D_strict": {
+            "mean_gap": 0.7333,
+            "exact_gap": "11/15",
+            "per_problem_gaps": [
+              "3/5",
+              "4/5",
+              "4/5",
+              "4/5",
+              "4/5",
+              "4/5",
+              "3/5",
+              "4/5",
+              "4/5",
+              "4/5",
+              "4/5",
+              "2/5"
+            ],
+            "sign_flip_p": 0.00048828125,
+            "sign_flip_p_exact": "1/2048",
+            "holm_p_across_three_models": 0.00146484375
+          },
+          "acc": {
+            "mean_gap": 0.85,
+            "exact_gap": "17/20",
+            "per_problem_gaps": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "3/5",
+              "1",
+              "3/5",
+              "4/5",
+              "1",
+              "1",
+              "1",
+              "1/5"
+            ],
+            "sign_flip_p": 0.00048828125,
+            "sign_flip_p_exact": "1/2048",
+            "holm_p_across_three_models": 0.00146484375
+          },
+          "acc_strict": {
+            "mean_gap": 0.9167,
+            "exact_gap": "11/12",
+            "per_problem_gaps": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "3/5",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2/5"
+            ],
+            "sign_flip_p": 0.00048828125,
+            "sign_flip_p_exact": "1/2048",
+            "holm_p_across_three_models": 0.00146484375
+          },
+          "reproduced_intervals": {
+            "D_gap_ci": [
+              0.4167,
+              0.6167
+            ],
+            "D_gap_strict_ci": [
+              0.6,
+              0.7667
+            ],
+            "acc_gap_ci": [
+              0.6333,
+              0.95
+            ],
+            "acc_strict_gap_ci": [
+              0.7167,
+              0.9667
+            ],
+            "D_gap_ci_2stage": [
+              0.3167,
+              0.5333
+            ]
+          }
+        },
+        "fixed_minus_finalonly_k7": {
+          "D": {
+            "mean_gap": 0.0,
+            "exact_gap": "0",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "D_strict": {
+            "mean_gap": 0.0,
+            "exact_gap": "0",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "acc": {
+            "mean_gap": 0.0,
+            "exact_gap": "0",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "acc_strict": {
+            "mean_gap": 0.0,
+            "exact_gap": "0",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "reproduced_intervals": {
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_ci_2stage": [
+              0.0,
+              0.0
+            ],
+            "tost_ci90": [
+              0.0,
+              0.0
+            ],
+            "tost_pass": null
+          }
+        },
+        "rebound_deg_k7_minus_k5": {
+          "D": {
+            "mean_gap": 0.0,
+            "exact_gap": "0",
+            "per_problem_gaps": [
+              "-1/5",
+              "1/5",
+              "-1/5",
+              "-1/5",
+              "0",
+              "1/5",
+              "-1/5",
+              "1/5",
+              "0",
+              "2/5",
+              "0",
+              "-1/5"
+            ],
+            "sign_flip_p": 1.0,
+            "sign_flip_p_exact": "1"
+          },
+          "D_strict": {
+            "mean_gap": -0.15,
+            "exact_gap": "-3/20",
+            "per_problem_gaps": [
+              "-1/5",
+              "0",
+              "-1/5",
+              "-2/5",
+              "-1/5",
+              "0",
+              "0",
+              "-1/5",
+              "0",
+              "0",
+              "-1/5",
+              "-2/5"
+            ],
+            "sign_flip_p": 0.015625,
+            "sign_flip_p_exact": "1/64"
+          },
+          "acc": {
+            "mean_gap": -0.2167,
+            "exact_gap": "-13/60",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "-2/5",
+              "-3/5",
+              "0",
+              "-2/5",
+              "-1/5",
+              "-1/5",
+              "0",
+              "-1/5",
+              "-2/5",
+              "-1/5"
+            ],
+            "sign_flip_p": 0.0078125,
+            "sign_flip_p_exact": "1/128"
+          },
+          "acc_strict": {
+            "mean_gap": -0.25,
+            "exact_gap": "-1/4",
+            "per_problem_gaps": [
+              "0",
+              "0",
+              "-2/5",
+              "-3/5",
+              "-2/5",
+              "-1/5",
+              "0",
+              "-2/5",
+              "0",
+              "-1/5",
+              "-2/5",
+              "-2/5"
+            ],
+            "sign_flip_p": 0.0078125,
+            "sign_flip_p_exact": "1/128"
+          },
+          "reproduced_intervals": {
+            "D_gap_ci": [
+              -0.1167,
+              0.1167
+            ],
+            "D_gap_strict_ci": [
+              -0.25,
+              -0.0833
+            ],
+            "acc_gap_ci": [
+              -0.35,
+              -0.1333
+            ],
+            "acc_strict_gap_ci": [
+              -0.3667,
+              -0.15
+            ]
+          }
+        }
+      }
+    }
+  },
+  "method": {
+    "strict_agreement": "Each non-hash or refusal final output becomes a distinct no-answer, still in denominator; N=5 floor is 0.2.",
+    "inference": "Exact two-sided sign-flip enumeration of 4096 assignments; inferential validity requires a sign-symmetry/exchangeability null.",
+    "intervals": "Retained from the supplied regenerated analysis after independently verifying its raw input cells and contrast estimates; problem-cluster BCa 95% with 10,000 draws; two-stage intervals are sensitivity analyses.",
+    "cli_versions": "Protocol documents Claude Code 2.1.220 and Codex 0.145.0; versions not logged in per-call R3 records.",
+    "decoding": "CLI defaults; temperature and sampling seed unexposed, GPT medium reasoning effort."
+  },
+  "cautions": [
+    "R3 plan timing is not independently public-verifiable; call it a frozen-plan replication.",
+    "Do not claim general model-family ranks, chain capability, deterministic-model behavior, or defect prevalence.",
+    "Do not state TOST equivalence; Haiku/Sonnet have degenerate bootstrap gap distributions and GPT touches the margin.",
+    "Rebound is a descriptive/parser-sensitivity observation, not multiplicity-adjusted confirmatory significance.",
+    "No reviewer-verifiable historical 14\u201342x causal comparison survives."
+  ],
+  "counts_total": {
+    "selected_chains": 1260,
+    "selected_step_calls": 5940,
+    "stored_chain_records": 1342,
+    "stored_step_objects": 6066,
+    "inference_attempts": 6452,
+    "error_chains": 0,
+    "deviation_chains": 0
+  }
+}

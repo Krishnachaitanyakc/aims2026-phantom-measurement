@@ -1,0 +1,162 @@
+[
+  {
+    "id": "C1",
+    "kind": "contribution",
+    "text": "Question restoration increases depth-seven parsed-answer agreement by 16.7 to 53.3 percentage points on the fixed panel.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:contrasts",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "C2",
+    "kind": "contribution",
+    "text": "Final call restoration yields 60 correct responses out of 60 for each model, restricting any claim about intermediate reasoning.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:cells",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "C3",
+    "kind": "contribution",
+    "text": "Haiku permissive agreement rebounds while correctness falls; marker-only extraction removes that rebound.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:parser",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "M1",
+    "kind": "metric",
+    "text": "Parsed answer agreement is mean per-problem plurality share over five chains.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "eq:agreement",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "M2",
+    "kind": "metric",
+    "text": "Strict agreement and strict accuracy retain rejected runs in their denominators.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:cells",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "M3",
+    "kind": "metric",
+    "text": "Paired BCa intervals and exact sign-flip p-values are reported separately by metric and adjusted across three models.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:contrasts",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "M4",
+    "kind": "metric",
+    "text": "Every condition receives twelve problems and five repetitions; resource counts disclosed.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:design",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "M5",
+    "kind": "metric",
+    "text": "The retained collection has 1260 chains and 5940 analyzed calls; all attempts are disclosed.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:provenance",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "N1",
+    "kind": "number",
+    "text": "Haiku permissive agreement at depth five.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:cells",
+    "status": "DISCHARGED",
+    "value": "0.600",
+    "formula": "36/60"
+  },
+  {
+    "id": "N2",
+    "kind": "number",
+    "text": "Haiku permissive agreement at depth seven.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:cells",
+    "status": "DISCHARGED",
+    "value": "0.833",
+    "formula": "50/60"
+  },
+  {
+    "id": "N3",
+    "kind": "number",
+    "text": "Haiku correct final answers fall from thirteen to seven out of sixty.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:cells",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "N4",
+    "kind": "number",
+    "text": "Forty-nine of fifty-three Haiku fallback extractions at depth seven produce literal six.",
+    "claimed_at": [
+      "abstract",
+      "sec:intro",
+      "sec:results"
+    ],
+    "discharged_by": "tab:parser",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "A1",
+    "kind": "artifact",
+    "text": "A reader-accessible public reproduction artifact with retained logs, code, and data.",
+    "claimed_at": [
+      "Reproducibility and AI assistance"
+    ],
+    "discharged_by": "url:https://github.com/Krishnachaitanyakc/aims2026-phantom-measurement",
+    "status": "DISCHARGED",
+    "local_package": "artifact/",
+    "reason": "Public repository and complete archive downloaded without credentials; all 32 artifact manifest entries match local released files."
+  }
+]

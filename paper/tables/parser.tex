@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Haiku agreement rebounds only with permissive scoring. Each row has 60 final outputs under \dropq. Hash and fallback extraction paths partition those outputs. The step column reports fallback values equal to the immediately preceding step index (shown in parentheses), over all fallback extractions. Marker only removes fallback extraction without using the phrase gate; it is a post hoc descriptive sensitivity. Literal token counts are not human semantic labels. Correctness is reported in Table~\ref{tab:cells}.}
+\label{tab:parser}
+\begin{tabular}{@{}rrrrrrr@{}}
+\toprule
+$k$ & Hash & Fallback & Step token & $D$ & Marker only & Strict \\
+\midrule
+5 & 16 & 44 & 31/44 (4) & 0.600 & 0.233 & 0.233 \\
+7 & 7 & 53 & 49/53 (6) & 0.833 & 0.233 & 0.233 \\
+\bottomrule
+\end{tabular}
+\end{table}

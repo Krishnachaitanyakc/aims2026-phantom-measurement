@@ -1,0 +1,2 @@
+matplotlib==3.11.0
+pypdf==6.19.0
