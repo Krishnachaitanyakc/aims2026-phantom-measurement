@@ -23,7 +23,7 @@ python3 -m pip install -r requirements-build.txt
 python3 scripts/build.py
 ```
 
-The build audits the raw evidence, regenerates tables and the figure, compiles the paper, and checks the PDF. The workshop is non-archival. This repository release does not establish a final OpenReview upload.
+The build audits the raw evidence, regenerates tables and the figure, compiles the paper, and checks the PDF. The workshop is nonarchival. This repository release does not establish a final OpenReview upload.
 
 ## Rights
 
