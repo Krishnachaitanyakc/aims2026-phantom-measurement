@@ -1,0 +1,13 @@
+{
+  "checked_inputs": [
+    "data/gsm8k_test.jsonl",
+    "data/subset_seed20260728.json",
+    "runs/haiku-r3.jsonl",
+    "runs/sonnet-r3.jsonl",
+    "runs/codex-r3.jsonl"
+  ],
+  "stored_chain_records": 1342,
+  "dataset_sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+  "privacy_pattern_scan": "passed",
+  "documented_redacted_fields": 2
+}

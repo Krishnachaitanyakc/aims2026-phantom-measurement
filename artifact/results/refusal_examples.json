@@ -1,0 +1,86 @@
+[
+  {
+    "arm": "codex-gpt56",
+    "k": 7,
+    "problem_id": "gsm8k_test_176",
+    "run_idx": 2,
+    "excerpt": "I still need the original problem or steps 4\u20135. \u201c100 Chinese girls\u201d alone doesn\u2019t specify the next calculation. Paste that context, and I\u2019ll work through step 6 without revealing the final answer."
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 5,
+    "problem_id": "gsm8k_test_204",
+    "run_idx": 0,
+    "excerpt": "I still need the original problem statement. Knowing only that Janet bought \\(66\\) new pens doesn\u2019t reveal the next operation, so step 4 cannot be calculated without inventing missing information. Please provide the rest of the problem."
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 5,
+    "problem_id": "gsm8k_test_204",
+    "run_idx": 1,
+    "excerpt": "I still need the original problem statement\u2014or at least the result from step 3 and the operation required in step 4. With only \u201cJanet bought 12 red pens,\u201d I can\u2019t continue accurately without inventing details."
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 5,
+    "problem_id": "gsm8k_test_292",
+    "run_idx": 0,
+    "excerpt": "I still need the original problem and the result/rate from step 3 before I can perform step 4. Please paste those details, and I\u2019ll show the next calculation without revealing the final answer."
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 7,
+    "problem_id": "gsm8k_test_292",
+    "run_idx": 1,
+    "excerpt": "I still need the original problem or the instructions for steps 4\u20135. From only\n\n\\[\n150 \\div 60 = 2.5\\text{ paid hours},\n\\]\n\nthe next operation cannot be determined without guessing. Please provide the missing context, and I\u2019ll work through step 5 without revealing the final answe"
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 7,
+    "problem_id": "gsm8k_test_292",
+    "run_idx": 4,
+    "excerpt": "I still need the original problem and the results of steps 3\u20135. Without them, there\u2019s no calculation to continue. Please paste that context, and I\u2019ll perform only step 6 without giving the final answer."
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 7,
+    "problem_id": "gsm8k_test_634",
+    "run_idx": 3,
+    "excerpt": "I still need the original problem or the result from step 5 to perform step 6. The only available value is:\n\n\\[\n\\text{Tommy\u2019s total}=14\\text{ fish}\n\\]\n\nPlease provide the missing information, and I\u2019ll show the step 6 calculation without revealing the final answer."
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 7,
+    "problem_id": "gsm8k_test_668",
+    "run_idx": 1,
+    "excerpt": "I still need the original problem or step 4\u2019s instructions. The only known calculation is:\n\n\\[\n10 \\times 0.30 = 3\n\\]\n\nThere isn\u2019t enough information to determine the next calculation for step 5 without guessing."
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 7,
+    "problem_id": "gsm8k_test_668",
+    "run_idx": 0,
+    "excerpt": "I still need the original problem or the Step 4 expression to identify the next calculation. Please paste it, and I\u2019ll show Step 5 without revealing the final answer."
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 7,
+    "problem_id": "gsm8k_test_668",
+    "run_idx": 4,
+    "excerpt": "I still need the original problem and the instructions/results for steps 1\u20134. Knowing only that there are **3 management employees** doesn\u2019t identify the next calculation in step 5.\n\nPlease paste that context, and I\u2019ll show the step-5 work without giving the final answer."
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 7,
+    "problem_id": "gsm8k_test_827",
+    "run_idx": 2,
+    "excerpt": "I still need the original problem\u2014or the result from step 3\u2014to perform step 4. Please provide it, and I\u2019ll show the next calculation while stopping before the final answer."
+  },
+  {
+    "arm": "codex-gpt56",
+    "k": 7,
+    "problem_id": "gsm8k_test_827",
+    "run_idx": 3,
+    "excerpt": "I still need the original problem or step 4\u2019s intermediate result to perform step 5. The only known value is the **$3.00 return-shipping cost**, which isn\u2019t enough to determine the next calculation.\n\nPaste step 4, and I\u2019ll show step 5\u2019s work without revealing the final answer."
+  }
+]

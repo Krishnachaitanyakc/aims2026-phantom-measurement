@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "source_revision": "d3c93153c1d70baa51926cf6f54dbb2634c5060f",
+  "source_directory": "research/Determinism/submissions/coling2027/artifact",
+  "scope": "SW-JUL26-R3 GSM8K only; no historical or later planned campaigns",
+  "copied_files": [
+    {
+      "path": "harness/__init__.py",
+      "source_sha256": "f8557ca113644ab3f827c2f6fa96300dc1b31d942475e7e68223985ae710b721",
+      "initial_distribution_sha256": "f8557ca113644ab3f827c2f6fa96300dc1b31d942475e7e68223985ae710b721",
+      "bytes": 72
+    },
+    {
+      "path": "harness/analyze.py",
+      "source_sha256": "13fb93c1363aea43df87c392b9ebbf386700efb425f04b090295922b421ff6e2",
+      "initial_distribution_sha256": "13fb93c1363aea43df87c392b9ebbf386700efb425f04b090295922b421ff6e2",
+      "bytes": 43777
+    },
+    {
+      "path": "harness/diagnostic.py",
+      "source_sha256": "6028c1d7283828cea8c22d1ee57bc8919b3fb154d5136363abf89bd27b07de41",
+      "initial_distribution_sha256": "6028c1d7283828cea8c22d1ee57bc8919b3fb154d5136363abf89bd27b07de41",
+      "bytes": 8419
+    },
+    {
+      "path": "harness/gsm8k.py",
+      "source_sha256": "c5c1c43bd14766eca0164080885b9a8a2f2fe8ef719d8a9137a8078ffe5e3dae",
+      "initial_distribution_sha256": "c5c1c43bd14766eca0164080885b9a8a2f2fe8ef719d8a9137a8078ffe5e3dae",
+      "bytes": 5469
+    },
+    {
+      "path": "harness/metrics.py",
+      "source_sha256": "97274392d8338b4b663708ef547d5d9e8bfbfe97eab17c0d8b1f9d058179f273",
+      "initial_distribution_sha256": "97274392d8338b4b663708ef547d5d9e8bfbfe97eab17c0d8b1f9d058179f273",
+      "bytes": 5377
+    },
+    {
+      "path": "harness/parsing.py",
+      "source_sha256": "dfd9f2ed8e9c96bb87544d09cd279b4d576372eabd1966114fe02bb5587e60a6",
+      "initial_distribution_sha256": "dfd9f2ed8e9c96bb87544d09cd279b4d576372eabd1966114fe02bb5587e60a6",
+      "bytes": 3350
+    },
+    {
+      "path": "harness/prompts.py",
+      "source_sha256": "0ff03aacbc71deaa167d17c0dfe2641a8d4150e2fe824f830ab7d044413ad5e7",
+      "initial_distribution_sha256": "0ff03aacbc71deaa167d17c0dfe2641a8d4150e2fe824f830ab7d044413ad5e7",
+      "bytes": 6087
+    },
+    {
+      "path": "tests/test_analyze.py",
+      "source_sha256": "4c3e85da5c65c9fe3136579a8e0df39b4966c731458a7069b9d84427ecb1240b",
+      "initial_distribution_sha256": "4c3e85da5c65c9fe3136579a8e0df39b4966c731458a7069b9d84427ecb1240b",
+      "bytes": 8134
+    },
+    {
+      "path": "tests/test_diagnostic.py",
+      "source_sha256": "4a8567d466a4d417a81181aa70c1354e51bdb1039c181ea7697c6a770de20995",
+      "initial_distribution_sha256": "4a8567d466a4d417a81181aa70c1354e51bdb1039c181ea7697c6a770de20995",
+      "bytes": 3473
+    },
+    {
+      "path": "tests/test_gates.py",
+      "source_sha256": "cc97cd6913a6e37c278faede6e12899271b13b69262b3f25f8a11d4d9fe1bd03",
+      "initial_distribution_sha256": "cc97cd6913a6e37c278faede6e12899271b13b69262b3f25f8a11d4d9fe1bd03",
+      "bytes": 8311
+    },
+    {
+      "path": "tests/test_gsm8k.py",
+      "source_sha256": "6f58fe80c70d4d4a74b72163efbf5c6c89b0351bf7326350c729b1ae1e804089",
+      "initial_distribution_sha256": "6f58fe80c70d4d4a74b72163efbf5c6c89b0351bf7326350c729b1ae1e804089",
+      "bytes": 1424
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "source_sha256": "ff80959f97aa5c50bceb9311c1b38c7f1fe4babf9e632686e63e3548d4c5046c",
+      "initial_distribution_sha256": "ff80959f97aa5c50bceb9311c1b38c7f1fe4babf9e632686e63e3548d4c5046c",
+      "bytes": 2592
+    },
+    {
+      "path": "tests/test_parsing.py",
+      "source_sha256": "5982405ba4e3dd5f8aa6e450699cadf3725b5edee73a1782afeb696ef1eb9223",
+      "initial_distribution_sha256": "5982405ba4e3dd5f8aa6e450699cadf3725b5edee73a1782afeb696ef1eb9223",
+      "bytes": 2890
+    },
+    {
+      "path": "tests/test_prompts.py",
+      "source_sha256": "9b0c3090cc7112c298fb1020d53b81c7f7f1b7e203d054630ad8b8c07b4e5355",
+      "initial_distribution_sha256": "9b0c3090cc7112c298fb1020d53b81c7f7f1b7e203d054630ad8b8c07b4e5355",
+      "bytes": 4532
+    },
+    {
+      "path": "data/gsm8k_test.jsonl",
+      "source_sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+      "initial_distribution_sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+      "bytes": 749738
+    },
+    {
+      "path": "data/subset_seed20260728.json",
+      "source_sha256": "e54d33342b8f74af6478bdaa05018f441c2bcc2492d92c9755519558c052024d",
+      "initial_distribution_sha256": "e54d33342b8f74af6478bdaa05018f441c2bcc2492d92c9755519558c052024d",
+      "bytes": 5422
+    },
+    {
+      "path": "runs/haiku-r3.jsonl",
+      "source_sha256": "31df69c4d9205c93c308dec7be9b9c4102babc4fba3a58377e13b236e07f233a",
+      "initial_distribution_sha256": "edbf11ffbd473bd845175ec0c7d7ef9c21c75faa406f81c32c4904a080a844a2",
+      "bytes": 4197469
+    },
+    {
+      "path": "runs/sonnet-r3.jsonl",
+      "source_sha256": "84c3c5c38371c4a26eb0085e35453dfc3ba3dc44946eef80c19e4257b79dee91",
+      "initial_distribution_sha256": "84c3c5c38371c4a26eb0085e35453dfc3ba3dc44946eef80c19e4257b79dee91",
+      "bytes": 3565646
+    },
+    {
+      "path": "runs/codex-r3.jsonl",
+      "source_sha256": "48094c979ecddb66fed9f8057b1a4806ddee2f977232ddaa4e3d1dc40331479d",
+      "initial_distribution_sha256": "48094c979ecddb66fed9f8057b1a4806ddee2f977232ddaa4e3d1dc40331479d",
+      "bytes": 2695596
+    },
+    {
+      "path": "LICENSE",
+      "source_sha256": "bda89b0b4069937bf47990793814e5be9120c8e45728be8986e783befefdcfc6",
+      "initial_distribution_sha256": "61a93b8fcdb26e7998b663d03f33b632c1e9e6ab9193ab07cfdc901ad4cd94cb",
+      "bytes": 1303
+    }
+  ],
+  "redactions": [
+    {
+      "file": "runs/haiku-r3.jsonl",
+      "line": 16,
+      "step_index": 3,
+      "field": "output",
+      "type": "home-directory-prefix",
+      "original_value_sha256": "0bbb1ce990dc6f4912c30398d74ba8394d345d690c27676d8e5239183d2c7c9e",
+      "public_value_sha256": "2fb34287f9f1a16507a36359bb9de187edaccfdae49358987e245830e26984ee"
+    },
+    {
+      "file": "runs/haiku-r3.jsonl",
+      "line": 16,
+      "step_index": 4,
+      "field": "prompt",
+      "type": "home-directory-prefix",
+      "original_value_sha256": "09f694e7016532f1ef0f057c1c001829074e28242fb4c90b7e14237ebb5799c8",
+      "public_value_sha256": "28196cfded0d16e3d3b8db2d87fe7fd523572917f94e8449b98b9edfa5443982"
+    }
+  ],
+  "preparation_changes": [
+    {
+      "path": "harness/diagnostic.py",
+      "change": "Native prompt adapter; shared run_idx pairing; reject mixed model/campaign/construction inputs; require nonempty task and evidence."
+    },
+    {
+      "path": "harness/analyze.py",
+      "change": "Treat floating-point equivalence-margin boundary contact as inconclusive; clarify accuracy and boundary-interval comments. Primary cell, gap, interval and p-value calculations unchanged."
+    },
+    {
+      "path": "tests/test_diagnostic.py",
+      "change": "Regressions for native adaptation, disjoint runs, unmatched runs, namespace mixing, construction selection and empty inputs."
+    },
+    {
+      "path": "tests/test_analyze.py",
+      "change": "Regression for floating-point equivalence-margin boundary contact."
+    },
+    {
+      "path": "tests/test_prompts.py",
+      "change": "Omitted the R2 collection-runner randomization test because this offline R3 distribution intentionally excludes the collection runner."
+    },
+    {
+      "path": "harness/metrics.py",
+      "change": "State sign symmetry/exchangeability as an inferential assumption, not a design guarantee; remove unsupported IID assertion. Computation unchanged."
+    },
+    {
+      "path": "harness/parsing.py",
+      "change": "Describe refusal phrase flags as unvalidated heuristics, not a guaranteed lower bound. Computation unchanged."
+    },
+    {
+      "path": "LICENSE",
+      "change": "Preserve the existing author-code MIT license and restore Krishna Chaitanya Balusu in the copyright notice, as directed by the source license camera-ready clause. Dataset and model-output notices preserved."
+    }
+  ],
+  "third_party_license": {
+    "path": "licenses/GSM8K-MIT.txt",
+    "source_url": "https://raw.githubusercontent.com/openai/grade-school-math/master/LICENSE",
+    "retrieved": "2026-09-21",
+    "sha256": "86bbb73e855821d7c401912fd4bf82e34313e6e3b6fd6f909f2b6cc9e209a53b",
+    "scope": "GSM8K only"
+  },
+  "privacy_scan": {
+    "scope": "All three distributed raw logs, including superseded records",
+    "checks": [
+      "private home-directory paths",
+      "email addresses",
+      "API token and bearer credential shapes"
+    ],
+    "findings_after_redaction": 0,
+    "limit": "Pattern scan and inspection; not a claim that automated scanning detects every possible identifier."
+  },
+  "author_code_license": {
+    "path": "LICENSE",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2026 Krishna Chaitanya Balusu",
+    "source_path": "research/Determinism/submissions/coling2027/artifact/LICENSE",
+    "source_sha256": "bda89b0b4069937bf47990793814e5be9120c8e45728be8986e783befefdcfc6",
+    "scope": "Author code; GSM8K and vendor model-output notices are separate."
+  }
+}

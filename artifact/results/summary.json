@@ -1,0 +1,4714 @@
+{
+  "arms": {
+    "codex-gpt56": {
+      "conf": {
+        "cells": {
+          "degenerate_k1": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "degenerate_k5": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 0.5167,
+            "D_ci": [
+              0.3833,
+              0.6667
+            ],
+            "D_strict_mean": 0.4833,
+            "acc_mean": 0.4333,
+            "acc_ci": [
+              0.2333,
+              0.6167
+            ],
+            "tara_mean": 0.1667,
+            "scoreable_frac": 0.6,
+            "refusal_rate_any_step": 0.1667,
+            "parse_paths": {
+              "hash": 36,
+              "fallback": 11,
+              "none": 13
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 0.2,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.6,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 0.2,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.8,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              }
+            },
+            "acc_strict_mean": 0.4167,
+            "fallback_mix": {
+              "n_fallback": 11,
+              "top_value": "3",
+              "top_n": 4,
+              "n_equal_final_step_index": 1
+            }
+          },
+          "degenerate_k7": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 0.4667,
+            "D_ci": [
+              0.3333,
+              0.6
+            ],
+            "D_strict_mean": 0.3667,
+            "acc_mean": 0.3333,
+            "acc_ci": [
+              0.2167,
+              0.5167
+            ],
+            "tara_mean": 0.0833,
+            "scoreable_frac": 0.4833,
+            "refusal_rate_any_step": 0.3,
+            "parse_paths": {
+              "hash": 29,
+              "fallback": 23,
+              "none": 8
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 0.2,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 0.2,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.6,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 0.2,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 0.2,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              }
+            },
+            "acc_strict_mean": 0.3167,
+            "fallback_mix": {
+              "n_fallback": 23,
+              "top_value": "5",
+              "top_n": 15,
+              "n_equal_final_step_index": 2
+            }
+          },
+          "finalonly_k7": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.1833,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "fixed_k1": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "fixed_k5": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "fixed_k7": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 0.9833,
+            "D_ci": [
+              0.9,
+              1.0
+            ],
+            "D_strict_mean": 0.9833,
+            "acc_mean": 0.9833,
+            "acc_ci": [
+              0.9,
+              1.0
+            ],
+            "tara_mean": 0.9167,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.8,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "acc_strict_mean": 0.9833
+          }
+        },
+        "gaps": {
+          "fixed_minus_degenerate_k1": {
+            "n": 12,
+            "D_gap_mean": 0.0,
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0,
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0,
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": true,
+            "acc_gap_ci_degenerate": true,
+            "acc_strict_gap_mean": 0.0,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0,
+            "D_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_errfail_perm_p": 1.0,
+            "noise_rule_pass": true
+          },
+          "fixed_minus_degenerate_k5": {
+            "n": 12,
+            "D_gap_mean": 0.4833,
+            "D_gap_ci": [
+              0.2833,
+              0.6
+            ],
+            "D_gap_perm_p": 0.001953125,
+            "D_gap_strict_mean": 0.5167,
+            "D_gap_strict_ci": [
+              0.3167,
+              0.65
+            ],
+            "D_gap_strict_perm_p": 0.001953125,
+            "acc_gap_mean": 0.5667,
+            "acc_gap_ci": [
+              0.35,
+              0.7333
+            ],
+            "acc_gap_perm_p": 0.001953125,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.5833,
+            "acc_strict_gap_ci": [
+              0.35,
+              0.75
+            ],
+            "acc_strict_gap_perm_p": 0.001953125,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.4833,
+            "D_gap_complete_only_ci": [
+              0.2833,
+              0.6
+            ],
+            "D_gap_complete_only_perm_p": 0.001953125,
+            "acc_gap_mean_complete_only": 0.5667,
+            "acc_gap_complete_only_perm_p": 0.001953125,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.4833,
+            "D_gap_pc_ci": [
+              0.3,
+              0.6
+            ],
+            "D_gap_pc_perm_p": 0.001953125,
+            "acc_gap_pc_mean": 0.5667,
+            "acc_gap_pc_ci": [
+              0.3333,
+              0.7333
+            ],
+            "acc_gap_pc_perm_p": 0.001953125,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.4833,
+            "D_gap_errfail_ci": [
+              0.2833,
+              0.6
+            ],
+            "D_gap_errfail_perm_p": 0.001953125,
+            "acc_gap_errfail_mean": 0.5667,
+            "acc_gap_errfail_ci": [
+              0.3333,
+              0.7333
+            ],
+            "acc_gap_errfail_perm_p": 0.001953125
+          },
+          "fixed_minus_degenerate_k7": {
+            "n": 12,
+            "D_gap_mean": 0.5167,
+            "D_gap_ci": [
+              0.35,
+              0.6333
+            ],
+            "D_gap_perm_p": 0.0009765625,
+            "D_gap_strict_mean": 0.6167,
+            "D_gap_strict_ci": [
+              0.3833,
+              0.6833
+            ],
+            "D_gap_strict_perm_p": 0.0009765625,
+            "acc_gap_mean": 0.65,
+            "acc_gap_ci": [
+              0.45,
+              0.7667
+            ],
+            "acc_gap_perm_p": 0.0009765625,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.6667,
+            "acc_strict_gap_ci": [
+              0.4667,
+              0.7667
+            ],
+            "acc_strict_gap_perm_p": 0.0009765625,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.5167,
+            "D_gap_complete_only_ci": [
+              0.35,
+              0.6167
+            ],
+            "D_gap_complete_only_perm_p": 0.0009765625,
+            "acc_gap_mean_complete_only": 0.65,
+            "acc_gap_complete_only_perm_p": 0.0009765625,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.5167,
+            "D_gap_pc_ci": [
+              0.35,
+              0.6167
+            ],
+            "D_gap_pc_perm_p": 0.0009765625,
+            "acc_gap_pc_mean": 0.65,
+            "acc_gap_pc_ci": [
+              0.4333,
+              0.75
+            ],
+            "acc_gap_pc_perm_p": 0.0009765625,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.5167,
+            "D_gap_errfail_ci": [
+              0.3333,
+              0.6167
+            ],
+            "D_gap_errfail_perm_p": 0.0009765625,
+            "acc_gap_errfail_mean": 0.65,
+            "acc_gap_errfail_ci": [
+              0.45,
+              0.75
+            ],
+            "acc_gap_errfail_perm_p": 0.0009765625,
+            "D_gap_ci_2stage": [
+              0.2667,
+              0.5167
+            ],
+            "D_gap_perm_p_holm_cls": 0.001953125,
+            "acc_gap_perm_p_holm_cls": 0.00146484375,
+            "D_gap_strict_perm_p_holm_cls": 0.00146484375,
+            "acc_strict_gap_perm_p_holm_cls": 0.00146484375
+          },
+          "fixed_minus_finalonly_k7": {
+            "n": 12,
+            "D_gap_mean": -0.0167,
+            "D_gap_ci": [
+              -0.1,
+              0.0
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": -0.0167,
+            "D_gap_strict_ci": [
+              -0.0833,
+              0.0
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": -0.0167,
+            "acc_gap_ci": [
+              -0.1,
+              0.0
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": -0.0167,
+            "acc_strict_gap_ci": [
+              -0.1,
+              0.0
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": -0.0167,
+            "D_gap_complete_only_ci": [
+              -0.0833,
+              0.0
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": -0.0167,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": -0.0167,
+            "D_gap_pc_ci": [
+              -0.0833,
+              0.0
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": -0.0167,
+            "acc_gap_pc_ci": [
+              -0.1167,
+              0.0
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": -0.0167,
+            "D_gap_errfail_ci": [
+              -0.1,
+              0.0
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": -0.0167,
+            "acc_gap_errfail_ci": [
+              -0.1,
+              0.0
+            ],
+            "acc_gap_errfail_perm_p": 1.0,
+            "D_gap_ci_2stage": [
+              -0.0667,
+              0.0
+            ],
+            "tost_margin": 0.1,
+            "tost_ci90": [
+              -0.1,
+              -0.0167
+            ],
+            "tost_pass": null,
+            "tost_note": "equivalence-margin boundary contact; inconclusive"
+          },
+          "finalonly_minus_degenerate_k7": {
+            "n": 12,
+            "D_gap_mean": 0.5333,
+            "D_gap_ci": [
+              0.35,
+              0.6333
+            ],
+            "D_gap_perm_p": 0.0009765625,
+            "D_gap_strict_mean": 0.6333,
+            "D_gap_strict_ci": [
+              0.4,
+              0.7
+            ],
+            "D_gap_strict_perm_p": 0.0009765625,
+            "acc_gap_mean": 0.6667,
+            "acc_gap_ci": [
+              0.45,
+              0.7667
+            ],
+            "acc_gap_perm_p": 0.0009765625,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.6833,
+            "acc_strict_gap_ci": [
+              0.4667,
+              0.7833
+            ],
+            "acc_strict_gap_perm_p": 0.0009765625,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.5333,
+            "D_gap_complete_only_ci": [
+              0.35,
+              0.65
+            ],
+            "D_gap_complete_only_perm_p": 0.0009765625,
+            "acc_gap_mean_complete_only": 0.6667,
+            "acc_gap_complete_only_perm_p": 0.0009765625,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.5333,
+            "D_gap_pc_ci": [
+              0.35,
+              0.65
+            ],
+            "D_gap_pc_perm_p": 0.0009765625,
+            "acc_gap_pc_mean": 0.6667,
+            "acc_gap_pc_ci": [
+              0.4667,
+              0.7667
+            ],
+            "acc_gap_pc_perm_p": 0.0009765625,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.5333,
+            "D_gap_errfail_ci": [
+              0.35,
+              0.6333
+            ],
+            "D_gap_errfail_perm_p": 0.0009765625,
+            "acc_gap_errfail_mean": 0.6667,
+            "acc_gap_errfail_ci": [
+              0.4667,
+              0.7667
+            ],
+            "acc_gap_errfail_perm_p": 0.0009765625,
+            "D_gap_ci_2stage": [
+              0.2667,
+              0.5333
+            ]
+          }
+        },
+        "flatness": {
+          "k1_minus_k5": {
+            "n": 12,
+            "D_gap_mean": 0.0,
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0,
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0,
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": true,
+            "acc_gap_ci_degenerate": true,
+            "acc_strict_gap_mean": 0.0,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0,
+            "D_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_errfail_perm_p": 1.0
+          },
+          "k1_minus_k7": {
+            "n": 12,
+            "D_gap_mean": 0.0167,
+            "D_gap_ci": [
+              0.0,
+              0.05
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0167,
+            "D_gap_strict_ci": [
+              0.0,
+              0.05
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0167,
+            "acc_gap_ci": [
+              0.0,
+              0.05
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.0167,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.05
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0167,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.05
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0167,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0167,
+            "D_gap_pc_ci": [
+              0.0,
+              0.05
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0167,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.05
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0167,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.05
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0167,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.05
+            ],
+            "acc_gap_errfail_perm_p": 1.0
+          }
+        },
+        "failure_mode": {
+          "degenerate": {
+            "k": 7,
+            "rows": [
+              {
+                "problem_id": "gsm8k_test_1009",
+                "D": 0.2,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.2
+              },
+              {
+                "problem_id": "gsm8k_test_1090",
+                "D": 0.8,
+                "modal_answer": "5",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_1122",
+                "D": 0.2,
+                "modal_answer": "0.6",
+                "modal_correct": false,
+                "acc": 0.2
+              },
+              {
+                "problem_id": "gsm8k_test_1132",
+                "D": 0.6,
+                "modal_answer": "5",
+                "modal_correct": false,
+                "acc": 0.4
+              },
+              {
+                "problem_id": "gsm8k_test_1164",
+                "D": 0.4,
+                "modal_answer": "15",
+                "modal_correct": false,
+                "acc": 0.2
+              },
+              {
+                "problem_id": "gsm8k_test_176",
+                "D": 0.6,
+                "modal_answer": "100",
+                "modal_correct": true,
+                "acc": 0.6
+              },
+              {
+                "problem_id": "gsm8k_test_204",
+                "D": 0.6,
+                "modal_answer": "66",
+                "modal_correct": false,
+                "acc": 0.4
+              },
+              {
+                "problem_id": "gsm8k_test_292",
+                "D": 0.2,
+                "modal_answer": "15",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_634",
+                "D": 1.0,
+                "modal_answer": "14",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_668",
+                "D": 0.4,
+                "modal_answer": "5",
+                "modal_correct": false,
+                "acc": 0.4
+              },
+              {
+                "problem_id": "gsm8k_test_827",
+                "D": 0.4,
+                "modal_answer": "11",
+                "modal_correct": true,
+                "acc": 0.4
+              },
+              {
+                "problem_id": "gsm8k_test_976",
+                "D": 0.2,
+                "modal_answer": "-11",
+                "modal_correct": false,
+                "acc": 0.2
+              }
+            ],
+            "n_highD": 5,
+            "n_highD_modal_wrong": 3
+          },
+          "fixed": {
+            "k": 7,
+            "rows": [
+              {
+                "problem_id": "gsm8k_test_1009",
+                "D": 1.0,
+                "modal_answer": "1875",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1090",
+                "D": 1.0,
+                "modal_answer": "72",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1122",
+                "D": 0.8,
+                "modal_answer": "18",
+                "modal_correct": true,
+                "acc": 0.8
+              },
+              {
+                "problem_id": "gsm8k_test_1132",
+                "D": 1.0,
+                "modal_answer": "45000",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1164",
+                "D": 1.0,
+                "modal_answer": "9",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_176",
+                "D": 1.0,
+                "modal_answer": "100",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_204",
+                "D": 1.0,
+                "modal_answer": "98",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_292",
+                "D": 1.0,
+                "modal_answer": "75",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_634",
+                "D": 1.0,
+                "modal_answer": "14",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_668",
+                "D": 1.0,
+                "modal_answer": "3",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_827",
+                "D": 1.0,
+                "modal_answer": "11",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_976",
+                "D": 1.0,
+                "modal_answer": "540",
+                "modal_correct": true,
+                "acc": 1.0
+              }
+            ],
+            "n_highD": 12,
+            "n_highD_modal_wrong": 0
+          },
+          "finalonly": {
+            "k": 7,
+            "rows": [
+              {
+                "problem_id": "gsm8k_test_1009",
+                "D": 1.0,
+                "modal_answer": "1875",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1090",
+                "D": 1.0,
+                "modal_answer": "72",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1122",
+                "D": 1.0,
+                "modal_answer": "18",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1132",
+                "D": 1.0,
+                "modal_answer": "45000",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1164",
+                "D": 1.0,
+                "modal_answer": "9",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_176",
+                "D": 1.0,
+                "modal_answer": "100",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_204",
+                "D": 1.0,
+                "modal_answer": "98",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_292",
+                "D": 1.0,
+                "modal_answer": "75",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_634",
+                "D": 1.0,
+                "modal_answer": "14",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_668",
+                "D": 1.0,
+                "modal_answer": "3",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_827",
+                "D": 1.0,
+                "modal_answer": "11",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_976",
+                "D": 1.0,
+                "modal_answer": "540",
+                "modal_correct": true,
+                "acc": 1.0
+              }
+            ],
+            "n_highD": 12,
+            "n_highD_modal_wrong": 0
+          }
+        },
+        "rebound_deg_k7_minus_k5": {
+          "n": 12,
+          "D_gap_mean": -0.05,
+          "D_gap_ci": [
+            -0.2167,
+            0.1333
+          ],
+          "D_gap_perm_p": 0.724609375,
+          "D_gap_strict_mean": -0.1167,
+          "D_gap_strict_ci": [
+            -0.3,
+            -0.0167
+          ],
+          "D_gap_strict_perm_p": 0.25,
+          "acc_gap_mean": -0.1,
+          "acc_gap_ci": [
+            -0.2667,
+            0.0333
+          ],
+          "acc_gap_perm_p": 0.328125,
+          "D_gap_ci_degenerate": false,
+          "acc_gap_ci_degenerate": false,
+          "acc_strict_gap_mean": -0.1,
+          "acc_strict_gap_ci": [
+            -0.2833,
+            0.05
+          ],
+          "acc_strict_gap_perm_p": 0.375,
+          "n_complete_only": 12,
+          "D_gap_mean_complete_only": -0.05,
+          "D_gap_complete_only_ci": [
+            -0.2167,
+            0.1333
+          ],
+          "D_gap_complete_only_perm_p": 0.724609375,
+          "acc_gap_mean_complete_only": -0.1,
+          "acc_gap_complete_only_perm_p": 0.328125,
+          "n_pairwise_complete": 12,
+          "D_gap_pc_mean": -0.05,
+          "D_gap_pc_ci": [
+            -0.2167,
+            0.1333
+          ],
+          "D_gap_pc_perm_p": 0.724609375,
+          "acc_gap_pc_mean": -0.1,
+          "acc_gap_pc_ci": [
+            -0.2667,
+            0.0333
+          ],
+          "acc_gap_pc_perm_p": 0.328125,
+          "n_errfail": 12,
+          "D_gap_errfail_mean": -0.05,
+          "D_gap_errfail_ci": [
+            -0.2167,
+            0.1333
+          ],
+          "D_gap_errfail_perm_p": 0.724609375,
+          "acc_gap_errfail_mean": -0.1,
+          "acc_gap_errfail_ci": [
+            -0.2667,
+            0.0333
+          ],
+          "acc_gap_errfail_perm_p": 0.328125
+        }
+      }
+    },
+    "haiku": {
+      "conf": {
+        "cells": {
+          "degenerate_k1": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "degenerate_k5": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 0.6,
+            "D_ci": [
+              0.4833,
+              0.7333
+            ],
+            "D_strict_mean": 0.2333,
+            "acc_mean": 0.2167,
+            "acc_ci": [
+              0.1,
+              0.3167
+            ],
+            "tara_mean": 0.1667,
+            "scoreable_frac": 0.2667,
+            "refusal_rate_any_step": 0.3,
+            "parse_paths": {
+              "hash": 16,
+              "fallback": 44,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.6,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              }
+            },
+            "acc_strict_mean": 0.15,
+            "fallback_mix": {
+              "n_fallback": 44,
+              "top_value": "4",
+              "top_n": 31,
+              "n_equal_final_step_index": 32
+            }
+          },
+          "degenerate_k7": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 0.8333,
+            "D_ci": [
+              0.7333,
+              0.9
+            ],
+            "D_strict_mean": 0.2333,
+            "acc_mean": 0.1167,
+            "acc_ci": [
+              0.0333,
+              0.2333
+            ],
+            "tara_mean": 0.3333,
+            "scoreable_frac": 0.1167,
+            "refusal_rate_any_step": 0.65,
+            "parse_paths": {
+              "hash": 7,
+              "fallback": 53,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.6,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              }
+            },
+            "acc_strict_mean": 0.1,
+            "fallback_mix": {
+              "n_fallback": 53,
+              "top_value": "6",
+              "top_n": 49,
+              "n_equal_final_step_index": 49
+            }
+          },
+          "finalonly_k7": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.2,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "fixed_k1": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "fixed_k5": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "fixed_k7": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          }
+        },
+        "gaps": {
+          "fixed_minus_degenerate_k1": {
+            "n": 12,
+            "D_gap_mean": 0.0,
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0,
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0,
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": true,
+            "acc_gap_ci_degenerate": true,
+            "acc_strict_gap_mean": 0.0,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0,
+            "D_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_errfail_perm_p": 1.0,
+            "noise_rule_pass": true
+          },
+          "fixed_minus_degenerate_k5": {
+            "n": 12,
+            "D_gap_mean": 0.4,
+            "D_gap_ci": [
+              0.2333,
+              0.5
+            ],
+            "D_gap_perm_p": 0.001953125,
+            "D_gap_strict_mean": 0.7667,
+            "D_gap_strict_ci": [
+              0.6833,
+              0.7833
+            ],
+            "D_gap_strict_perm_p": 0.00048828125,
+            "acc_gap_mean": 0.7833,
+            "acc_gap_ci": [
+              0.65,
+              0.8833
+            ],
+            "acc_gap_perm_p": 0.00048828125,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.85,
+            "acc_strict_gap_ci": [
+              0.75,
+              0.9167
+            ],
+            "acc_strict_gap_perm_p": 0.00048828125,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.4,
+            "D_gap_complete_only_ci": [
+              0.2333,
+              0.5
+            ],
+            "D_gap_complete_only_perm_p": 0.001953125,
+            "acc_gap_mean_complete_only": 0.7833,
+            "acc_gap_complete_only_perm_p": 0.00048828125,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.4,
+            "D_gap_pc_ci": [
+              0.2333,
+              0.5
+            ],
+            "D_gap_pc_perm_p": 0.001953125,
+            "acc_gap_pc_mean": 0.7833,
+            "acc_gap_pc_ci": [
+              0.6333,
+              0.8833
+            ],
+            "acc_gap_pc_perm_p": 0.00048828125,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.4,
+            "D_gap_errfail_ci": [
+              0.2333,
+              0.5
+            ],
+            "D_gap_errfail_perm_p": 0.001953125,
+            "acc_gap_errfail_mean": 0.7833,
+            "acc_gap_errfail_ci": [
+              0.65,
+              0.8833
+            ],
+            "acc_gap_errfail_perm_p": 0.00048828125
+          },
+          "fixed_minus_degenerate_k7": {
+            "n": 12,
+            "D_gap_mean": 0.1667,
+            "D_gap_ci": [
+              0.0833,
+              0.25
+            ],
+            "D_gap_perm_p": 0.0078125,
+            "D_gap_strict_mean": 0.7667,
+            "D_gap_strict_ci": [
+              0.6,
+              0.8
+            ],
+            "D_gap_strict_perm_p": 0.00048828125,
+            "acc_gap_mean": 0.8833,
+            "acc_gap_ci": [
+              0.7167,
+              0.9333
+            ],
+            "acc_gap_perm_p": 0.00048828125,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.9,
+            "acc_strict_gap_ci": [
+              0.7,
+              0.95
+            ],
+            "acc_strict_gap_perm_p": 0.00048828125,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.1667,
+            "D_gap_complete_only_ci": [
+              0.0833,
+              0.25
+            ],
+            "D_gap_complete_only_perm_p": 0.0078125,
+            "acc_gap_mean_complete_only": 0.8833,
+            "acc_gap_complete_only_perm_p": 0.00048828125,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.1667,
+            "D_gap_pc_ci": [
+              0.0833,
+              0.2333
+            ],
+            "D_gap_pc_perm_p": 0.0078125,
+            "acc_gap_pc_mean": 0.8833,
+            "acc_gap_pc_ci": [
+              0.7167,
+              0.95
+            ],
+            "acc_gap_pc_perm_p": 0.00048828125,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.1667,
+            "D_gap_errfail_ci": [
+              0.0833,
+              0.25
+            ],
+            "D_gap_errfail_perm_p": 0.0078125,
+            "acc_gap_errfail_mean": 0.8833,
+            "acc_gap_errfail_ci": [
+              0.7167,
+              0.95
+            ],
+            "acc_gap_errfail_perm_p": 0.00048828125,
+            "D_gap_ci_2stage": [
+              0.0667,
+              0.25
+            ],
+            "D_gap_perm_p_holm_cls": 0.0078125,
+            "acc_gap_perm_p_holm_cls": 0.00146484375,
+            "D_gap_strict_perm_p_holm_cls": 0.00146484375,
+            "acc_strict_gap_perm_p_holm_cls": 0.00146484375
+          },
+          "fixed_minus_finalonly_k7": {
+            "n": 12,
+            "D_gap_mean": 0.0,
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0,
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0,
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": true,
+            "acc_gap_ci_degenerate": true,
+            "acc_strict_gap_mean": 0.0,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0,
+            "D_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_errfail_perm_p": 1.0,
+            "D_gap_ci_2stage": [
+              0.0,
+              0.0
+            ],
+            "tost_margin": 0.1,
+            "tost_ci90": [
+              0.0,
+              0.0
+            ],
+            "tost_pass": null,
+            "tost_note": "degenerate gap distribution; CI unavailable; descriptive only (Amendment A6)"
+          },
+          "finalonly_minus_degenerate_k7": {
+            "n": 12,
+            "D_gap_mean": 0.1667,
+            "D_gap_ci": [
+              0.0833,
+              0.25
+            ],
+            "D_gap_perm_p": 0.0078125,
+            "D_gap_strict_mean": 0.7667,
+            "D_gap_strict_ci": [
+              0.6,
+              0.8
+            ],
+            "D_gap_strict_perm_p": 0.00048828125,
+            "acc_gap_mean": 0.8833,
+            "acc_gap_ci": [
+              0.7167,
+              0.95
+            ],
+            "acc_gap_perm_p": 0.00048828125,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.9,
+            "acc_strict_gap_ci": [
+              0.7333,
+              0.9667
+            ],
+            "acc_strict_gap_perm_p": 0.00048828125,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.1667,
+            "D_gap_complete_only_ci": [
+              0.0833,
+              0.2333
+            ],
+            "D_gap_complete_only_perm_p": 0.0078125,
+            "acc_gap_mean_complete_only": 0.8833,
+            "acc_gap_complete_only_perm_p": 0.00048828125,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.1667,
+            "D_gap_pc_ci": [
+              0.0833,
+              0.2333
+            ],
+            "D_gap_pc_perm_p": 0.0078125,
+            "acc_gap_pc_mean": 0.8833,
+            "acc_gap_pc_ci": [
+              0.7,
+              0.95
+            ],
+            "acc_gap_pc_perm_p": 0.00048828125,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.1667,
+            "D_gap_errfail_ci": [
+              0.0833,
+              0.25
+            ],
+            "D_gap_errfail_perm_p": 0.0078125,
+            "acc_gap_errfail_mean": 0.8833,
+            "acc_gap_errfail_ci": [
+              0.7,
+              0.95
+            ],
+            "acc_gap_errfail_perm_p": 0.00048828125,
+            "D_gap_ci_2stage": [
+              0.05,
+              0.25
+            ]
+          }
+        },
+        "flatness": {
+          "k1_minus_k5": {
+            "n": 12,
+            "D_gap_mean": 0.0,
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0,
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0,
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": true,
+            "acc_gap_ci_degenerate": true,
+            "acc_strict_gap_mean": 0.0,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0,
+            "D_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_errfail_perm_p": 1.0
+          },
+          "k1_minus_k7": {
+            "n": 12,
+            "D_gap_mean": 0.0,
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0,
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0,
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": true,
+            "acc_gap_ci_degenerate": true,
+            "acc_strict_gap_mean": 0.0,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0,
+            "D_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_errfail_perm_p": 1.0
+          }
+        },
+        "failure_mode": {
+          "degenerate": {
+            "k": 7,
+            "rows": [
+              {
+                "problem_id": "gsm8k_test_1009",
+                "D": 0.6,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_1090",
+                "D": 0.8,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.2
+              },
+              {
+                "problem_id": "gsm8k_test_1122",
+                "D": 1.0,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_1132",
+                "D": 0.8,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.2
+              },
+              {
+                "problem_id": "gsm8k_test_1164",
+                "D": 1.0,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_176",
+                "D": 1.0,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_204",
+                "D": 0.8,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.2
+              },
+              {
+                "problem_id": "gsm8k_test_292",
+                "D": 0.6,
+                "modal_answer": "75",
+                "modal_correct": true,
+                "acc": 0.6
+              },
+              {
+                "problem_id": "gsm8k_test_634",
+                "D": 0.8,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_668",
+                "D": 0.8,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.2
+              },
+              {
+                "problem_id": "gsm8k_test_827",
+                "D": 0.8,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_976",
+                "D": 1.0,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              }
+            ],
+            "n_highD": 12,
+            "n_highD_modal_wrong": 11
+          },
+          "fixed": {
+            "k": 7,
+            "rows": [
+              {
+                "problem_id": "gsm8k_test_1009",
+                "D": 1.0,
+                "modal_answer": "1875",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1090",
+                "D": 1.0,
+                "modal_answer": "72",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1122",
+                "D": 1.0,
+                "modal_answer": "18",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1132",
+                "D": 1.0,
+                "modal_answer": "45000",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1164",
+                "D": 1.0,
+                "modal_answer": "9",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_176",
+                "D": 1.0,
+                "modal_answer": "100",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_204",
+                "D": 1.0,
+                "modal_answer": "98",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_292",
+                "D": 1.0,
+                "modal_answer": "75",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_634",
+                "D": 1.0,
+                "modal_answer": "14",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_668",
+                "D": 1.0,
+                "modal_answer": "3",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_827",
+                "D": 1.0,
+                "modal_answer": "11.00",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_976",
+                "D": 1.0,
+                "modal_answer": "540",
+                "modal_correct": true,
+                "acc": 1.0
+              }
+            ],
+            "n_highD": 12,
+            "n_highD_modal_wrong": 0
+          },
+          "finalonly": {
+            "k": 7,
+            "rows": [
+              {
+                "problem_id": "gsm8k_test_1009",
+                "D": 1.0,
+                "modal_answer": "1875",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1090",
+                "D": 1.0,
+                "modal_answer": "72",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1122",
+                "D": 1.0,
+                "modal_answer": "18",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1132",
+                "D": 1.0,
+                "modal_answer": "45000",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1164",
+                "D": 1.0,
+                "modal_answer": "9",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_176",
+                "D": 1.0,
+                "modal_answer": "100",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_204",
+                "D": 1.0,
+                "modal_answer": "98",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_292",
+                "D": 1.0,
+                "modal_answer": "75",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_634",
+                "D": 1.0,
+                "modal_answer": "14",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_668",
+                "D": 1.0,
+                "modal_answer": "3",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_827",
+                "D": 1.0,
+                "modal_answer": "11",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_976",
+                "D": 1.0,
+                "modal_answer": "540",
+                "modal_correct": true,
+                "acc": 1.0
+              }
+            ],
+            "n_highD": 12,
+            "n_highD_modal_wrong": 0
+          }
+        },
+        "rebound_deg_k7_minus_k5": {
+          "n": 12,
+          "D_gap_mean": 0.2333,
+          "D_gap_ci": [
+            0.0333,
+            0.3833
+          ],
+          "D_gap_perm_p": 0.0458984375,
+          "D_gap_strict_mean": -0.0,
+          "D_gap_strict_ci": [
+            -0.0667,
+            0.0333
+          ],
+          "D_gap_strict_perm_p": 1.0,
+          "acc_gap_mean": -0.1,
+          "acc_gap_ci": [
+            -0.2667,
+            0.0167
+          ],
+          "acc_gap_perm_p": 0.3046875,
+          "D_gap_ci_degenerate": false,
+          "acc_gap_ci_degenerate": false,
+          "acc_strict_gap_mean": -0.05,
+          "acc_strict_gap_ci": [
+            -0.1667,
+            0.0167
+          ],
+          "acc_strict_gap_perm_p": 0.53125,
+          "n_complete_only": 12,
+          "D_gap_mean_complete_only": 0.2333,
+          "D_gap_complete_only_ci": [
+            0.0333,
+            0.3833
+          ],
+          "D_gap_complete_only_perm_p": 0.0458984375,
+          "acc_gap_mean_complete_only": -0.1,
+          "acc_gap_complete_only_perm_p": 0.3046875,
+          "n_pairwise_complete": 12,
+          "D_gap_pc_mean": 0.2333,
+          "D_gap_pc_ci": [
+            0.05,
+            0.3833
+          ],
+          "D_gap_pc_perm_p": 0.0458984375,
+          "acc_gap_pc_mean": -0.1,
+          "acc_gap_pc_ci": [
+            -0.2667,
+            0.0167
+          ],
+          "acc_gap_pc_perm_p": 0.3046875,
+          "n_errfail": 12,
+          "D_gap_errfail_mean": 0.2333,
+          "D_gap_errfail_ci": [
+            0.0333,
+            0.3833
+          ],
+          "D_gap_errfail_perm_p": 0.0458984375,
+          "acc_gap_errfail_mean": -0.1,
+          "acc_gap_errfail_ci": [
+            -0.2667,
+            0.0167
+          ],
+          "acc_gap_errfail_perm_p": 0.3046875
+        }
+      }
+    },
+    "sonnet": {
+      "conf": {
+        "cells": {
+          "degenerate_k1": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "degenerate_k5": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 0.4667,
+            "D_ci": [
+              0.3667,
+              0.6
+            ],
+            "D_strict_mean": 0.4167,
+            "acc_mean": 0.3667,
+            "acc_ci": [
+              0.2167,
+              0.5333
+            ],
+            "tara_mean": 0.0833,
+            "scoreable_frac": 0.4833,
+            "refusal_rate_any_step": 0.1333,
+            "parse_paths": {
+              "hash": 29,
+              "fallback": 24,
+              "none": 7
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.6,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.6,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 0.2,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 0.2,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "acc_strict_mean": 0.3333,
+            "fallback_mix": {
+              "n_fallback": 24,
+              "top_value": "4",
+              "top_n": 8,
+              "n_equal_final_step_index": 10
+            }
+          },
+          "degenerate_k7": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 0.4667,
+            "D_ci": [
+              0.35,
+              0.55
+            ],
+            "D_strict_mean": 0.2667,
+            "acc_mean": 0.15,
+            "acc_ci": [
+              0.0333,
+              0.3333
+            ],
+            "tara_mean": 0.0,
+            "scoreable_frac": 0.1667,
+            "refusal_rate_any_step": 0.3333,
+            "parse_paths": {
+              "hash": 10,
+              "fallback": 43,
+              "none": 7
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 0.2,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.4,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.2,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 0.2,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 0.6,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 0.4,
+                "acc_errfail": 0.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.8,
+                "n_records": 5
+              }
+            },
+            "acc_strict_mean": 0.0833,
+            "fallback_mix": {
+              "n_fallback": 43,
+              "top_value": "6",
+              "top_n": 21,
+              "n_equal_final_step_index": 21
+            }
+          },
+          "finalonly_k7": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.2667,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "fixed_k1": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          },
+          "fixed_k5": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 0.9833,
+            "D_ci": [
+              0.9,
+              1.0
+            ],
+            "D_strict_mean": 0.9833,
+            "acc_mean": 0.9833,
+            "acc_ci": [
+              0.8833,
+              1.0
+            ],
+            "tara_mean": 0.9167,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 0.8,
+                "acc_errfail": 0.8,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "acc_strict_mean": 0.9833
+          },
+          "fixed_k7": {
+            "n_chains": 60,
+            "n_errors": 0,
+            "n_problems_used": 12,
+            "excluded_problems": [],
+            "D_mean": 1.0,
+            "D_ci": [
+              1.0,
+              1.0
+            ],
+            "D_strict_mean": 1.0,
+            "acc_mean": 1.0,
+            "acc_ci": [
+              1.0,
+              1.0
+            ],
+            "tara_mean": 1.0,
+            "scoreable_frac": 1.0,
+            "refusal_rate_any_step": 0.0,
+            "parse_paths": {
+              "hash": 60,
+              "fallback": 0,
+              "none": 0
+            },
+            "n_deviation_chains": 0,
+            "per_problem_all": {
+              "gsm8k_test_1009": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1090": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1122": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1132": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_1164": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_176": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_204": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_292": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_634": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_668": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_827": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              },
+              "gsm8k_test_976": {
+                "D_errfail": 1.0,
+                "acc_errfail": 1.0,
+                "n_records": 5
+              }
+            },
+            "D_ci_wilson_problem": [
+              0.7575,
+              1.0
+            ],
+            "acc_strict_mean": 1.0
+          }
+        },
+        "gaps": {
+          "fixed_minus_degenerate_k1": {
+            "n": 12,
+            "D_gap_mean": 0.0,
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0,
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0,
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": true,
+            "acc_gap_ci_degenerate": true,
+            "acc_strict_gap_mean": 0.0,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0,
+            "D_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_errfail_perm_p": 1.0,
+            "noise_rule_pass": true
+          },
+          "fixed_minus_degenerate_k5": {
+            "n": 12,
+            "D_gap_mean": 0.5167,
+            "D_gap_ci": [
+              0.35,
+              0.6
+            ],
+            "D_gap_perm_p": 0.0009765625,
+            "D_gap_strict_mean": 0.5667,
+            "D_gap_strict_ci": [
+              0.3833,
+              0.65
+            ],
+            "D_gap_strict_perm_p": 0.0009765625,
+            "acc_gap_mean": 0.6167,
+            "acc_gap_ci": [
+              0.4167,
+              0.7333
+            ],
+            "acc_gap_perm_p": 0.0009765625,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.65,
+            "acc_strict_gap_ci": [
+              0.45,
+              0.75
+            ],
+            "acc_strict_gap_perm_p": 0.0009765625,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.5167,
+            "D_gap_complete_only_ci": [
+              0.35,
+              0.6
+            ],
+            "D_gap_complete_only_perm_p": 0.0009765625,
+            "acc_gap_mean_complete_only": 0.6167,
+            "acc_gap_complete_only_perm_p": 0.0009765625,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.5167,
+            "D_gap_pc_ci": [
+              0.3667,
+              0.6
+            ],
+            "D_gap_pc_perm_p": 0.0009765625,
+            "acc_gap_pc_mean": 0.6167,
+            "acc_gap_pc_ci": [
+              0.4167,
+              0.7333
+            ],
+            "acc_gap_pc_perm_p": 0.0009765625,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.5167,
+            "D_gap_errfail_ci": [
+              0.35,
+              0.6
+            ],
+            "D_gap_errfail_perm_p": 0.0009765625,
+            "acc_gap_errfail_mean": 0.6167,
+            "acc_gap_errfail_ci": [
+              0.4333,
+              0.7333
+            ],
+            "acc_gap_errfail_perm_p": 0.0009765625
+          },
+          "fixed_minus_degenerate_k7": {
+            "n": 12,
+            "D_gap_mean": 0.5333,
+            "D_gap_ci": [
+              0.4167,
+              0.6167
+            ],
+            "D_gap_perm_p": 0.00048828125,
+            "D_gap_strict_mean": 0.7333,
+            "D_gap_strict_ci": [
+              0.6,
+              0.7667
+            ],
+            "D_gap_strict_perm_p": 0.00048828125,
+            "acc_gap_mean": 0.85,
+            "acc_gap_ci": [
+              0.6333,
+              0.95
+            ],
+            "acc_gap_perm_p": 0.00048828125,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.9167,
+            "acc_strict_gap_ci": [
+              0.7167,
+              0.9667
+            ],
+            "acc_strict_gap_perm_p": 0.00048828125,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.5333,
+            "D_gap_complete_only_ci": [
+              0.4167,
+              0.6167
+            ],
+            "D_gap_complete_only_perm_p": 0.00048828125,
+            "acc_gap_mean_complete_only": 0.85,
+            "acc_gap_complete_only_perm_p": 0.00048828125,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.5333,
+            "D_gap_pc_ci": [
+              0.4167,
+              0.6167
+            ],
+            "D_gap_pc_perm_p": 0.00048828125,
+            "acc_gap_pc_mean": 0.85,
+            "acc_gap_pc_ci": [
+              0.6333,
+              0.95
+            ],
+            "acc_gap_pc_perm_p": 0.00048828125,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.5333,
+            "D_gap_errfail_ci": [
+              0.4167,
+              0.6167
+            ],
+            "D_gap_errfail_perm_p": 0.00048828125,
+            "acc_gap_errfail_mean": 0.85,
+            "acc_gap_errfail_ci": [
+              0.6333,
+              0.95
+            ],
+            "acc_gap_errfail_perm_p": 0.00048828125,
+            "D_gap_ci_2stage": [
+              0.3167,
+              0.5333
+            ],
+            "D_gap_perm_p_holm_cls": 0.00146484375,
+            "acc_gap_perm_p_holm_cls": 0.00146484375,
+            "D_gap_strict_perm_p_holm_cls": 0.00146484375,
+            "acc_strict_gap_perm_p_holm_cls": 0.00146484375
+          },
+          "fixed_minus_finalonly_k7": {
+            "n": 12,
+            "D_gap_mean": 0.0,
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0,
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0,
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": true,
+            "acc_gap_ci_degenerate": true,
+            "acc_strict_gap_mean": 0.0,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0,
+            "D_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_errfail_perm_p": 1.0,
+            "D_gap_ci_2stage": [
+              0.0,
+              0.0
+            ],
+            "tost_margin": 0.1,
+            "tost_ci90": [
+              0.0,
+              0.0
+            ],
+            "tost_pass": null,
+            "tost_note": "degenerate gap distribution; CI unavailable; descriptive only (Amendment A6)"
+          },
+          "finalonly_minus_degenerate_k7": {
+            "n": 12,
+            "D_gap_mean": 0.5333,
+            "D_gap_ci": [
+              0.4167,
+              0.6167
+            ],
+            "D_gap_perm_p": 0.00048828125,
+            "D_gap_strict_mean": 0.7333,
+            "D_gap_strict_ci": [
+              0.6,
+              0.7667
+            ],
+            "D_gap_strict_perm_p": 0.00048828125,
+            "acc_gap_mean": 0.85,
+            "acc_gap_ci": [
+              0.6333,
+              0.95
+            ],
+            "acc_gap_perm_p": 0.00048828125,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.9167,
+            "acc_strict_gap_ci": [
+              0.7167,
+              0.9667
+            ],
+            "acc_strict_gap_perm_p": 0.00048828125,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.5333,
+            "D_gap_complete_only_ci": [
+              0.4167,
+              0.6167
+            ],
+            "D_gap_complete_only_perm_p": 0.00048828125,
+            "acc_gap_mean_complete_only": 0.85,
+            "acc_gap_complete_only_perm_p": 0.00048828125,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.5333,
+            "D_gap_pc_ci": [
+              0.4167,
+              0.6167
+            ],
+            "D_gap_pc_perm_p": 0.00048828125,
+            "acc_gap_pc_mean": 0.85,
+            "acc_gap_pc_ci": [
+              0.6333,
+              0.95
+            ],
+            "acc_gap_pc_perm_p": 0.00048828125,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.5333,
+            "D_gap_errfail_ci": [
+              0.4167,
+              0.6167
+            ],
+            "D_gap_errfail_perm_p": 0.00048828125,
+            "acc_gap_errfail_mean": 0.85,
+            "acc_gap_errfail_ci": [
+              0.6333,
+              0.95
+            ],
+            "acc_gap_errfail_perm_p": 0.00048828125,
+            "D_gap_ci_2stage": [
+              0.3167,
+              0.5333
+            ]
+          }
+        },
+        "flatness": {
+          "k1_minus_k5": {
+            "n": 12,
+            "D_gap_mean": 0.0167,
+            "D_gap_ci": [
+              0.0,
+              0.05
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0167,
+            "D_gap_strict_ci": [
+              0.0,
+              0.05
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0167,
+            "acc_gap_ci": [
+              0.0,
+              0.05
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": false,
+            "acc_gap_ci_degenerate": false,
+            "acc_strict_gap_mean": 0.0167,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.05
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0167,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.05
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0167,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0167,
+            "D_gap_pc_ci": [
+              0.0,
+              0.05
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0167,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.05
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0167,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.05
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0167,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.05
+            ],
+            "acc_gap_errfail_perm_p": 1.0
+          },
+          "k1_minus_k7": {
+            "n": 12,
+            "D_gap_mean": 0.0,
+            "D_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_perm_p": 1.0,
+            "D_gap_strict_mean": 0.0,
+            "D_gap_strict_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_strict_perm_p": 1.0,
+            "acc_gap_mean": 0.0,
+            "acc_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_perm_p": 1.0,
+            "D_gap_ci_degenerate": true,
+            "acc_gap_ci_degenerate": true,
+            "acc_strict_gap_mean": 0.0,
+            "acc_strict_gap_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_strict_gap_perm_p": 1.0,
+            "n_complete_only": 12,
+            "D_gap_mean_complete_only": 0.0,
+            "D_gap_complete_only_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_complete_only_perm_p": 1.0,
+            "acc_gap_mean_complete_only": 0.0,
+            "acc_gap_complete_only_perm_p": 1.0,
+            "n_pairwise_complete": 12,
+            "D_gap_pc_mean": 0.0,
+            "D_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_pc_perm_p": 1.0,
+            "acc_gap_pc_mean": 0.0,
+            "acc_gap_pc_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_pc_perm_p": 1.0,
+            "n_errfail": 12,
+            "D_gap_errfail_mean": 0.0,
+            "D_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "D_gap_errfail_perm_p": 1.0,
+            "acc_gap_errfail_mean": 0.0,
+            "acc_gap_errfail_ci": [
+              0.0,
+              0.0
+            ],
+            "acc_gap_errfail_perm_p": 1.0
+          }
+        },
+        "failure_mode": {
+          "degenerate": {
+            "k": 7,
+            "rows": [
+              {
+                "problem_id": "gsm8k_test_1009",
+                "D": 0.4,
+                "modal_answer": "62.5",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_1090",
+                "D": 0.6,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_1122",
+                "D": 0.2,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_1132",
+                "D": 0.4,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_1164",
+                "D": 0.4,
+                "modal_answer": "5",
+                "modal_correct": false,
+                "acc": 0.4
+              },
+              {
+                "problem_id": "gsm8k_test_176",
+                "D": 0.6,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_204",
+                "D": 0.4,
+                "modal_answer": "98",
+                "modal_correct": true,
+                "acc": 0.4
+              },
+              {
+                "problem_id": "gsm8k_test_292",
+                "D": 0.6,
+                "modal_answer": "6",
+                "modal_correct": false,
+                "acc": 0.2
+              },
+              {
+                "problem_id": "gsm8k_test_634",
+                "D": 0.2,
+                "modal_answer": "5",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_668",
+                "D": 0.6,
+                "modal_answer": "5",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_827",
+                "D": 0.4,
+                "modal_answer": "5",
+                "modal_correct": false,
+                "acc": 0.0
+              },
+              {
+                "problem_id": "gsm8k_test_976",
+                "D": 0.8,
+                "modal_answer": "540",
+                "modal_correct": true,
+                "acc": 0.8
+              }
+            ],
+            "n_highD": 5,
+            "n_highD_modal_wrong": 4
+          },
+          "fixed": {
+            "k": 7,
+            "rows": [
+              {
+                "problem_id": "gsm8k_test_1009",
+                "D": 1.0,
+                "modal_answer": "1875",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1090",
+                "D": 1.0,
+                "modal_answer": "72",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1122",
+                "D": 1.0,
+                "modal_answer": "18",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1132",
+                "D": 1.0,
+                "modal_answer": "45000",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1164",
+                "D": 1.0,
+                "modal_answer": "9",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_176",
+                "D": 1.0,
+                "modal_answer": "100",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_204",
+                "D": 1.0,
+                "modal_answer": "98",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_292",
+                "D": 1.0,
+                "modal_answer": "75",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_634",
+                "D": 1.0,
+                "modal_answer": "14",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_668",
+                "D": 1.0,
+                "modal_answer": "3",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_827",
+                "D": 1.0,
+                "modal_answer": "11.00",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_976",
+                "D": 1.0,
+                "modal_answer": "540",
+                "modal_correct": true,
+                "acc": 1.0
+              }
+            ],
+            "n_highD": 12,
+            "n_highD_modal_wrong": 0
+          },
+          "finalonly": {
+            "k": 7,
+            "rows": [
+              {
+                "problem_id": "gsm8k_test_1009",
+                "D": 1.0,
+                "modal_answer": "1875",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1090",
+                "D": 1.0,
+                "modal_answer": "72",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1122",
+                "D": 1.0,
+                "modal_answer": "18",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1132",
+                "D": 1.0,
+                "modal_answer": "45000",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_1164",
+                "D": 1.0,
+                "modal_answer": "9",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_176",
+                "D": 1.0,
+                "modal_answer": "100",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_204",
+                "D": 1.0,
+                "modal_answer": "98",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_292",
+                "D": 1.0,
+                "modal_answer": "75",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_634",
+                "D": 1.0,
+                "modal_answer": "14",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_668",
+                "D": 1.0,
+                "modal_answer": "3",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_827",
+                "D": 1.0,
+                "modal_answer": "11",
+                "modal_correct": true,
+                "acc": 1.0
+              },
+              {
+                "problem_id": "gsm8k_test_976",
+                "D": 1.0,
+                "modal_answer": "540",
+                "modal_correct": true,
+                "acc": 1.0
+              }
+            ],
+            "n_highD": 12,
+            "n_highD_modal_wrong": 0
+          }
+        },
+        "rebound_deg_k7_minus_k5": {
+          "n": 12,
+          "D_gap_mean": 0.0,
+          "D_gap_ci": [
+            -0.1167,
+            0.1167
+          ],
+          "D_gap_perm_p": 1.0,
+          "D_gap_strict_mean": -0.15,
+          "D_gap_strict_ci": [
+            -0.25,
+            -0.0833
+          ],
+          "D_gap_strict_perm_p": 0.015625,
+          "acc_gap_mean": -0.2167,
+          "acc_gap_ci": [
+            -0.35,
+            -0.1333
+          ],
+          "acc_gap_perm_p": 0.0078125,
+          "D_gap_ci_degenerate": false,
+          "acc_gap_ci_degenerate": false,
+          "acc_strict_gap_mean": -0.25,
+          "acc_strict_gap_ci": [
+            -0.3667,
+            -0.15
+          ],
+          "acc_strict_gap_perm_p": 0.0078125,
+          "n_complete_only": 12,
+          "D_gap_mean_complete_only": 0.0,
+          "D_gap_complete_only_ci": [
+            -0.1,
+            0.1167
+          ],
+          "D_gap_complete_only_perm_p": 1.0,
+          "acc_gap_mean_complete_only": -0.2167,
+          "acc_gap_complete_only_perm_p": 0.0078125,
+          "n_pairwise_complete": 12,
+          "D_gap_pc_mean": 0.0,
+          "D_gap_pc_ci": [
+            -0.1167,
+            0.1167
+          ],
+          "D_gap_pc_perm_p": 1.0,
+          "acc_gap_pc_mean": -0.2167,
+          "acc_gap_pc_ci": [
+            -0.35,
+            -0.1333
+          ],
+          "acc_gap_pc_perm_p": 0.0078125,
+          "n_errfail": 12,
+          "D_gap_errfail_mean": 0.0,
+          "D_gap_errfail_ci": [
+            -0.1,
+            0.1167
+          ],
+          "D_gap_errfail_perm_p": 1.0,
+          "acc_gap_errfail_mean": -0.2167,
+          "acc_gap_errfail_ci": [
+            -0.35,
+            -0.1333
+          ],
+          "acc_gap_errfail_perm_p": 0.0078125
+        }
+      }
+    }
+  },
+  "primary": {
+    "codex-gpt56": {
+      "k": 7,
+      "n": 12,
+      "D_gap_mean": 0.5167,
+      "D_gap_ci": [
+        0.35,
+        0.6333
+      ],
+      "D_gap_perm_p": 0.0009765625,
+      "D_gap_strict_mean": 0.6167,
+      "D_gap_strict_ci": [
+        0.3833,
+        0.6833
+      ],
+      "D_gap_strict_perm_p": 0.0009765625,
+      "acc_gap_mean": 0.65,
+      "acc_gap_ci": [
+        0.45,
+        0.7667
+      ],
+      "acc_gap_perm_p": 0.0009765625,
+      "D_gap_ci_degenerate": false,
+      "acc_gap_ci_degenerate": false,
+      "acc_strict_gap_mean": 0.6667,
+      "acc_strict_gap_ci": [
+        0.4667,
+        0.7667
+      ],
+      "acc_strict_gap_perm_p": 0.0009765625,
+      "n_complete_only": 12,
+      "D_gap_mean_complete_only": 0.5167,
+      "D_gap_complete_only_ci": [
+        0.35,
+        0.6167
+      ],
+      "D_gap_complete_only_perm_p": 0.0009765625,
+      "acc_gap_mean_complete_only": 0.65,
+      "acc_gap_complete_only_perm_p": 0.0009765625,
+      "n_pairwise_complete": 12,
+      "D_gap_pc_mean": 0.5167,
+      "D_gap_pc_ci": [
+        0.35,
+        0.6167
+      ],
+      "D_gap_pc_perm_p": 0.0009765625,
+      "acc_gap_pc_mean": 0.65,
+      "acc_gap_pc_ci": [
+        0.4333,
+        0.75
+      ],
+      "acc_gap_pc_perm_p": 0.0009765625,
+      "n_errfail": 12,
+      "D_gap_errfail_mean": 0.5167,
+      "D_gap_errfail_ci": [
+        0.3333,
+        0.6167
+      ],
+      "D_gap_errfail_perm_p": 0.0009765625,
+      "acc_gap_errfail_mean": 0.65,
+      "acc_gap_errfail_ci": [
+        0.45,
+        0.75
+      ],
+      "acc_gap_errfail_perm_p": 0.0009765625,
+      "D_gap_ci_2stage": [
+        0.2667,
+        0.5167
+      ],
+      "D_gap_perm_p_holm": 0.001953125
+    },
+    "haiku": {
+      "k": 7,
+      "n": 12,
+      "D_gap_mean": 0.1667,
+      "D_gap_ci": [
+        0.0833,
+        0.25
+      ],
+      "D_gap_perm_p": 0.0078125,
+      "D_gap_strict_mean": 0.7667,
+      "D_gap_strict_ci": [
+        0.6,
+        0.8
+      ],
+      "D_gap_strict_perm_p": 0.00048828125,
+      "acc_gap_mean": 0.8833,
+      "acc_gap_ci": [
+        0.7167,
+        0.9333
+      ],
+      "acc_gap_perm_p": 0.00048828125,
+      "D_gap_ci_degenerate": false,
+      "acc_gap_ci_degenerate": false,
+      "acc_strict_gap_mean": 0.9,
+      "acc_strict_gap_ci": [
+        0.7,
+        0.95
+      ],
+      "acc_strict_gap_perm_p": 0.00048828125,
+      "n_complete_only": 12,
+      "D_gap_mean_complete_only": 0.1667,
+      "D_gap_complete_only_ci": [
+        0.0833,
+        0.25
+      ],
+      "D_gap_complete_only_perm_p": 0.0078125,
+      "acc_gap_mean_complete_only": 0.8833,
+      "acc_gap_complete_only_perm_p": 0.00048828125,
+      "n_pairwise_complete": 12,
+      "D_gap_pc_mean": 0.1667,
+      "D_gap_pc_ci": [
+        0.0833,
+        0.2333
+      ],
+      "D_gap_pc_perm_p": 0.0078125,
+      "acc_gap_pc_mean": 0.8833,
+      "acc_gap_pc_ci": [
+        0.7167,
+        0.95
+      ],
+      "acc_gap_pc_perm_p": 0.00048828125,
+      "n_errfail": 12,
+      "D_gap_errfail_mean": 0.1667,
+      "D_gap_errfail_ci": [
+        0.0833,
+        0.25
+      ],
+      "D_gap_errfail_perm_p": 0.0078125,
+      "acc_gap_errfail_mean": 0.8833,
+      "acc_gap_errfail_ci": [
+        0.7167,
+        0.95
+      ],
+      "acc_gap_errfail_perm_p": 0.00048828125,
+      "D_gap_ci_2stage": [
+        0.0667,
+        0.25
+      ],
+      "D_gap_perm_p_holm": 0.0078125
+    },
+    "sonnet": {
+      "k": 7,
+      "n": 12,
+      "D_gap_mean": 0.5333,
+      "D_gap_ci": [
+        0.4167,
+        0.6167
+      ],
+      "D_gap_perm_p": 0.00048828125,
+      "D_gap_strict_mean": 0.7333,
+      "D_gap_strict_ci": [
+        0.6,
+        0.7667
+      ],
+      "D_gap_strict_perm_p": 0.00048828125,
+      "acc_gap_mean": 0.85,
+      "acc_gap_ci": [
+        0.6333,
+        0.95
+      ],
+      "acc_gap_perm_p": 0.00048828125,
+      "D_gap_ci_degenerate": false,
+      "acc_gap_ci_degenerate": false,
+      "acc_strict_gap_mean": 0.9167,
+      "acc_strict_gap_ci": [
+        0.7167,
+        0.9667
+      ],
+      "acc_strict_gap_perm_p": 0.00048828125,
+      "n_complete_only": 12,
+      "D_gap_mean_complete_only": 0.5333,
+      "D_gap_complete_only_ci": [
+        0.4167,
+        0.6167
+      ],
+      "D_gap_complete_only_perm_p": 0.00048828125,
+      "acc_gap_mean_complete_only": 0.85,
+      "acc_gap_complete_only_perm_p": 0.00048828125,
+      "n_pairwise_complete": 12,
+      "D_gap_pc_mean": 0.5333,
+      "D_gap_pc_ci": [
+        0.4167,
+        0.6167
+      ],
+      "D_gap_pc_perm_p": 0.00048828125,
+      "acc_gap_pc_mean": 0.85,
+      "acc_gap_pc_ci": [
+        0.6333,
+        0.95
+      ],
+      "acc_gap_pc_perm_p": 0.00048828125,
+      "n_errfail": 12,
+      "D_gap_errfail_mean": 0.5333,
+      "D_gap_errfail_ci": [
+        0.4167,
+        0.6167
+      ],
+      "D_gap_errfail_perm_p": 0.00048828125,
+      "acc_gap_errfail_mean": 0.85,
+      "acc_gap_errfail_ci": [
+        0.6333,
+        0.95
+      ],
+      "acc_gap_errfail_perm_p": 0.00048828125,
+      "D_gap_ci_2stage": [
+        0.3167,
+        0.5333
+      ],
+      "D_gap_perm_p_holm": 0.00146484375
+    }
+  },
+  "model_id_check": {
+    "codex-gpt56": {
+      "model_ids_observed": [
+        "gpt-5.6-sol"
+      ],
+      "uniform_among_observed": true,
+      "n_chains_without_observed_id": 0,
+      "deviation_chains": 0,
+      "deviation_steps": 0,
+      "deviation_max_turns": 0
+    },
+    "haiku": {
+      "model_ids_observed": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "uniform_among_observed": true,
+      "n_chains_without_observed_id": 0,
+      "deviation_chains": 0,
+      "deviation_steps": 0,
+      "deviation_max_turns": 0
+    },
+    "sonnet": {
+      "model_ids_observed": [
+        "claude-sonnet-5"
+      ],
+      "uniform_among_observed": true,
+      "n_chains_without_observed_id": 0,
+      "deviation_chains": 0,
+      "deviation_steps": 0,
+      "deviation_max_turns": 0
+    }
+  },
+  "accounting": {
+    "codex-gpt56": {
+      "accepted_chains": 420,
+      "accepted_step_calls": 1980,
+      "all_chain_records": 420,
+      "all_step_records": 1980,
+      "all_attempts": 1980,
+      "errors_in_latest": 0
+    },
+    "haiku": {
+      "accepted_chains": 420,
+      "accepted_step_calls": 1980,
+      "all_chain_records": 502,
+      "all_step_records": 2106,
+      "all_attempts": 2482,
+      "errors_in_latest": 0
+    },
+    "sonnet": {
+      "accepted_chains": 420,
+      "accepted_step_calls": 1980,
+      "all_chain_records": 420,
+      "all_step_records": 1980,
+      "all_attempts": 1990,
+      "errors_in_latest": 0
+    }
+  },
+  "family_status": {
+    "conf": {
+      "expected_arms": [
+        "haiku",
+        "codex-gpt56",
+        "sonnet"
+      ],
+      "present_arms": [
+        "codex-gpt56",
+        "haiku",
+        "sonnet"
+      ],
+      "partial_arms": [],
+      "complete": true,
+      "missing_arms": [],
+      "provenance_model": "R3-era: frozen commit + fail-closed identity; per-chain invocation ids introduced by A6 postdate this wave",
+      "success": true
+    }
+  },
+  "unit_integrity_violations": {}
+}
