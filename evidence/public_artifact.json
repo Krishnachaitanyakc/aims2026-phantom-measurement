@@ -8,5 +8,7 @@
   "download_sha256": "99381f145047ae1a73d8ebdbcc0b7332ed834a2c8a7a993c5db29c2f5d2b412e",
   "verified_utc": "2026-09-22 06:41:05 UTC",
   "openreview_upload": "AUTHOR_OWNED_NOT_PERFORMED",
-  "zenodo_doi": null
+  "zenodo_doi": "10.5281/zenodo.22901541",
+  "archive_version": "1.0.1",
+  "verification_scope": "GitHub artifact files; archive publication is recorded separately."
 }

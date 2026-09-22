@@ -1,5 +1,5 @@
 {
-  "pdf_sha256": "52968c4bac8423994ea04a7eac960fbfd4f3c8177b18f04acab68c8a04d8090e",
+  "pdf_sha256": "406bc94519799034f91cc248cb545dbd9e75e3092338ad249f3c077581b93cad",
   "total_pages": 9,
   "references_start_page": 7,
   "paper_size": "US Letter",
@@ -14,6 +14,7 @@
     "https://aclanthology.org/2025.eval4nlp-1.12/",
     "https://aclanthology.org/2025.findings-acl.950/",
     "https://arxiv.org/abs/2110.14168",
+    "https://doi.org/10.5281/zenodo.22901541",
     "https://github.com/Krishnachaitanyakc/aims2026-phantom-measurement",
     "https://proceedings.iclr.cc/paper_files/paper/2024/file/6c0e99d736da621403018ca7b32b1a4d-Paper-Conference.pdf",
     "https://proceedings.iclr.cc/paper_files/paper/2025/file/9602d22a8c791f23f8e4d1398e3fb5be-Paper-Conference.pdf",

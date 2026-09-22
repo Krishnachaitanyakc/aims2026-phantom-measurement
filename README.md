@@ -16,7 +16,7 @@ The command checks input hashes, runs 85 tests, and rebuilds the results in a te
 
 ## Paper and source
 
-The [versioned release](https://github.com/Krishnachaitanyakc/aims2026-phantom-measurement/releases/tag/v1.0.0) contains the PDF, source and artifact ZIP, and SHA256 checksums. Install Tectonic, Poppler, and the Python build dependencies to rebuild the paper:
+The [versioned release](https://github.com/Krishnachaitanyakc/aims2026-phantom-measurement/releases/tag/v1.0.1) contains the PDF, source and artifact ZIP, and SHA256 checksums. The same files are archived at [Zenodo](https://doi.org/10.5281/zenodo.22901541). Install Tectonic, Poppler, and the Python build dependencies to rebuild the paper:
 
 ```sh
 python3 -m pip install -r requirements-build.txt
